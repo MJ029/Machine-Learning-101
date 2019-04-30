@@ -24,7 +24,7 @@ Machine Learning 101 is a central repository intended to give detailed informati
 	2. [Multiple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Multi%20Linear%20Regression#multi-linear-regression)
 	3. [Polynomial Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Polynomial%20Regression#polynomial-regression)
 	4. [SVR - Support Vector Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Support%20Vector%20Machine/ReadMe.md#svr---support-vector-regression)
-	5. [Decision Tree Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/DTrees/3-Regression%20Models/Decision%20Trees#decision-tree-regression)
+	5. [Decision Tree Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees#decision-tree-regression)
 	6. Random Forest Regression
 	7. Evaluating Model Performance
 4. Classification 
