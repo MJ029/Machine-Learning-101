@@ -4,49 +4,49 @@
 - I am going to take you step by step to the world of Machine Learning, With every tutorial in this course you will develop new skills and improve your understanding in Machine Learning.
 - Moreover, the course is packed with practical exercises which are based on real-life examples. So you will learn the theory and also get some hands-on practice by building your own models and use-cases.
 - The course is structured the following way:
-	1. [Data Pre-Processing](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing#data-preprocessing)
-		1. [Handling Missing Data](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing#1-handling-missing-data)
-		2. [Handling Categorical Data](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing#2-handling-categorical-data)
-		3. [Splitting Data-Set into Dev/Training/Test set](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing#3-spiting-your-data-set-into-devtrainingtest-set)
-		4. [Feature Scaling](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing#4-feature-scaling)
- 	2. [Regression Models](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models#regression-models)
-	 	1. [Simple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Simple%20Linear%20Regression#simple-linear-regression)
-	 	2. [Multiple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Multi%20Linear%20Regression#multi-linear-regression)
-	 	3. [Polynomial Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Polynomial%20Regression#polynomial-regression)
-	 	4. [SVR - Support Vector Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Support%20Vector%20Machine/ReadMe.md#svr---support-vector-regression)
-	 	5. [Decision Tree Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/DTrees/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Decision%20Trees#decision-tree-regression)
-	 	6. Random Forest Regression
-	 	7. Evaluating Model Performance
- 	3. Classification 
-	 	1. Logistic Regression
-	 	2. K-NN
-	 	3. [SVM - Support Vector Machine](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/SVM#support-vector-machine)
-	 	4. Naive Bayes
-	 	5. [Decision Tree Classification](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/Decision%20Trees/ReadMe.md#decision-tree-classification)
-		 	1. ID3
-		 	2. C4.5 or J5.8
-	 	6. Random Forest Classification
- 	4. Clustering
-	 	1. K-Means
-	 	2. Hierarchical Clustering
- 	5. Association Rule Learning 
-	 	1. Apriori Rule
-	 	2. Eclat Rule
- 	6. Reinforcement Learning
-	 	1. UCB - Upper Confidence Bound
-	 	2. Thompson Sampling
- 	7. Deep Learning
-	 	1. Artificial Neural Networks
-	 	2. Convolutional Neural Networks
- 	8. Dimensionality Reduction 
-	 	1. PCA
-	 	2. LDA
-	 	3. Kernel PCA
- 	9. Model Selection & Boosting
-	 	1. k-fold Cross Validation
-	 	2. Parameter Tuning
-	 	3. Grid Search
-	 	4. XGBoost
+	1. [Data Pre-Processing](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#data-Pre-processing)
+		1. [Handling Missing Data](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#1-handling-missing-data)
+		2. [Handling Categorical Data](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#2-handling-categorical-data)
+		3. [Splitting Data-Set into Dev/Training/Test set](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#3-spiting-your-data-set-into-devtrainingtest-set)
+		4. [Feature Scaling](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#4-feature-scaling)    
+	2. [Regression Models](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models#regression-models)
+		1. [Simple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Simple%20Linear%20Regression#simple-linear-regression)
+		2. [Multiple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Multi%20Linear%20Regression#multi-linear-regression)
+		3. [Polynomial Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Polynomial%20Regression#polynomial-regression)
+		4. [SVR - Support Vector Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Support%20Vector%20Machine/ReadMe.md#svr---support-vector-regression)
+		5. [Decision Tree Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees#decision-tree-regression)
+		6. Random Forest Regression
+		7. Evaluating Model Performance
+	3. Classification 
+		 1. Logistic Regression
+		 2. K-NN
+		 3. [SVM - Support Vector Machine](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/SVM#support-vector-machine)
+		 4. Naive Bayes
+		 5. [Decision Tree Classification](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/ReadMe.md#decision-tree-classification)
+			 1. [ID3](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/ReadMe-ID3.md#id3---iterative-dichotomizer-3)
+			 2. [C4.5 or J4.8](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/ReadMe-C45.md#c-45-improved-version-of-id3)
+			 3. [CART](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/ReadMe-CART.md#cart---classification-and-regression-tree)
+		 6. Random Forest Classification
+	4. Clustering
+		 1. K-Means
+		 2. Hierarchical Clustering
+	5. Association Rule Learning 
+		 1. Apriori Rule
+		 2. Eclat Rule
+	6. Reinforcement Learning
+		1. UCB - Upper Confidence Bound
+		2. Thompson Sampling
+	7. Deep Learning
+		1. Artificial Neural Networks
+		2. Convolutional Neural Networks
+	8. Dimensionality Reduction 
+		1. PCA
+		2. LDA
+	9. Model Selection & Boosting
+		1. k-fold Cross Validation
+		2. Parameter Tuning
+		3. Grid Search
+		4. XGBoost
   
 # 2.Targeted Audience:
 - Anyone interested in Machine Learning.
@@ -138,26 +138,26 @@
 - Find 2 Different types of Installation modes available in the Doc Page as shown below.
 
 <p align="center">
-  <img width="756" height="305" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/1-Introduction/References/2TypesOfInstallation.JPG?raw=true">
+  <img width="756" height="305" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/1-Introduction/References/2TypesOfInstallation.JPG?raw=true">
 </p>
 
 - If you are installing Anaconda in your Personal PC/Laptop you can proceed to download Anaconda for Python 3.7 and above, run the .Exe will ask you for Anaconda installation path don't change anything leave things as it and completed the installation.
 - Usually installation will take 20-30 min. Please find the below image for your reference.
 
 <p align="center">
-  <img width="1043" height="466" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/1-Introduction/References/Anaconda%20Installer.JPG?raw=true">
+  <img width="1043" height="466" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/1-Introduction/References/Anaconda%20Installer.JPG?raw=true">
 </p>
 
 - If you want to use anaconda in PC/Laptop which does not have Admin access, recommend to use Minicoda a silent version of Anaconda will install everything by default in the machine. (Note: you are the complete responsibility for this action.)
 - please find the below images to Download and install Miniconda in your machine.
 
 <p align="center">
-  <img width="1039" height="671" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/1-Introduction/References/Miniconda%20Installer.JPG?raw=true">
+  <img width="1039" height="671" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/1-Introduction/References/Miniconda%20Installer.JPG?raw=true">
 </p>
 
 
 <p align="center">
-  <img width="740" height="600" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/1-Introduction/References/Installing%20Miniconda%20-%201.JPG?raw=true">
+  <img width="740" height="600" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/1-Introduction/References/Installing%20Miniconda%20-%201.JPG?raw=true">
 </p>
 
 - Miniconda Installation command `start /wait "" Miniconda4-latest-Windows-x86_64.exe /InstallationType=JustMe /RegisterPython=0 /S /D=%UserProfile%\Miniconda3`. Here replace the Miniconda version with your version
@@ -168,19 +168,19 @@
 - Once you completed installing anaconda in your machine, navigate to start and type Anaconda you will find the following Icon in start menu
 
 <p align="center">
-  <img width="211" height="372" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/1-Introduction/References/Windows%20Search.JPG?raw=true">
+  <img width="211" height="372" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/1-Introduction/References/Windows%20Search.JPG?raw=true">
 </p>
 
 - By clicking on above Anaconda Navigator icon will open he following Dashboard screen. 
 - please find Spyder IDE and click launch button to launch spyder IDE or simply you can search for sypder in Windows search and launch Spyder IDE.
 <p align="center">
-  <img width="1363" height="599" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/1-Introduction/References/Anaconda%20Dashboard.JPG?raw=true">
+  <img width="1363" height="599" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/1-Introduction/References/Anaconda%20Dashboard.JPG?raw=true">
 </p>
 
 - Once you open the IDE, it is always recommeded to move to your project directory. to navigate to the project folder use the File Explorer as follows, and create your py file by clicking New file creator icon and set it as your currnet working directory, if you want to shitch Drive use URL navigator in top right corner of the IDE.
 
 <p align="center">
-  <img width="1025" height="393" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/1-Introduction/References/Spyder%20IDE%20Overview.JPG?raw=true">
+  <img width="1025" height="393" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/1-Introduction/References/Spyder%20IDE%20Overview.JPG?raw=true">
 </p>
 
 - Image description below:
