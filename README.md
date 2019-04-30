@@ -20,22 +20,22 @@ Machine Learning 101 is a central repository intended to give detailed informati
 	3. [Splitting Data-Set into Dev/Training/Test set](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#3-spiting-your-data-set-into-devtrainingtest-set)
 	4. [Feature Scaling](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#4-feature-scaling)    
 3. [Regression Models](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models#regression-models)
-	1. [Simple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Simple%20Linear%20Regression#simple-linear-regression)
-	2. [Multiple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Multi%20Linear%20Regression#multi-linear-regression)
-	3. [Polynomial Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Polynomial%20Regression#polynomial-regression)
+	1. [Simple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Simple%20Linear%20Regression#simple-linear-regression)
+	2. [Multiple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Multi%20Linear%20Regression#multi-linear-regression)
+	3. [Polynomial Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Polynomial%20Regression#polynomial-regression)
 	4. [SVR - Support Vector Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Support%20Vector%20Machine/ReadMe.md#svr---support-vector-regression)
-	5. [Decision Tree Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/DTrees/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Decision%20Trees#decision-tree-regression)
+	5. [Decision Tree Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/DTrees/3-Regression%20Models/Decision%20Trees#decision-tree-regression)
 	6. Random Forest Regression
 	7. Evaluating Model Performance
 4. Classification 
 	 1. Logistic Regression
 	 2. K-NN
-	 3. [SVM - Support Vector Machine](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/SVM#support-vector-machine)
+	 3. [SVM - Support Vector Machine](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/SVM#support-vector-machine)
 	 4. Naive Bayes
-	 5. [Decision Tree Classification](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/Decision%20Trees/ReadMe.md#decision-tree-classification)
-		 1. [ID3](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/Decision%20Trees/ReadMe-ID3.md#id3---iterative-dichotomizer-3)
-		 2. [C4.5 or J4.8](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/Decision%20Trees/ReadMe-C45.md#c-45-improved-version-of-id3)
-		 3. [CART](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/Decision%20Trees/ReadMe-CART.md#cart---classification-and-regression-tree)
+	 5. [Decision Tree Classification](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/4-Classification%20Models/Decision%20Trees/ReadMe.md#decision-tree-classification)
+		 1. [ID3](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/4-Classification%20Models/Decision%20Trees/ReadMe-ID3.md#id3---iterative-dichotomizer-3)
+		 2. [C4.5 or J4.8](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/4-Classification%20Models/Decision%20Trees/ReadMe-C45.md#c-45-improved-version-of-id3)
+		 3. [CART](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/4-Classification%20Models/Decision%20Trees/ReadMe-CART.md#cart---classification-and-regression-tree)
 	 6. Random Forest Classification
 5. Clustering
 	 1. K-Means
