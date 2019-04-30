@@ -32,10 +32,10 @@ Machine Learning 101 is a central repository intended to give detailed informati
 	 2. K-NN
 	 3. [SVM - Support Vector Machine](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/SVM#support-vector-machine)
 	 4. Naive Bayes
-	 5. [Decision Tree Classification](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/4-Classification%20Models/Decision%20Trees/ReadMe.md#decision-tree-classification)
-		 1. [ID3](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/4-Classification%20Models/Decision%20Trees/ReadMe-ID3.md#id3---iterative-dichotomizer-3)
-		 2. [C4.5 or J4.8](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/4-Classification%20Models/Decision%20Trees/ReadMe-C45.md#c-45-improved-version-of-id3)
-		 3. [CART](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/4-Classification%20Models/Decision%20Trees/ReadMe-CART.md#cart---classification-and-regression-tree)
+	 5. [Decision Tree Classification](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/ReadMe.md#decision-tree-classification)
+		 1. [ID3](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/ReadMe-ID3.md#id3---iterative-dichotomizer-3)
+		 2. [C4.5 or J4.8](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/ReadMe-C45.md#c-45-improved-version-of-id3)
+		 3. [CART](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/ReadMe-CART.md#cart---classification-and-regression-tree)
 	 6. Random Forest Classification
 5. Clustering
 	 1. K-Means
