@@ -8,8 +8,8 @@
 ###### 1.1 - Things to Remember:    
   SLR -> Simple Linear Regression    
   MLR -> Multi Linear Regression    
-  [Formula to find Mean](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/Formulas/Mean.JPG?raw=true)    
-  [Formula to find Median](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/Formulas/Median.JPG?raw=true)
+  [Formula to find Mean](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Formulas/Mean.JPG?raw=true)    
+  [Formula to find Median](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Formulas/Median.JPG?raw=true)
 
 ### 2 - What is Simple Linear Regression?
 - As we seen earlier in introduction SLR is known as the following,
@@ -49,7 +49,7 @@
 
 ###### 2.1.2 - Statistical Relationships:
 - In statistical relationship, the relationship between the variables is not perfect.
-- The below example illustrate the relationship between response variable y is the mortality due to skin cancer (number of deaths per 10 million people) and the predictor variable x is the latitude (degrees North) at the center of each of 49 states in the U.S. [(dataset.csv)](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/SkinCancer.csv)    
+- The below example illustrate the relationship between response variable y is the mortality due to skin cancer (number of deaths per 10 million people) and the predictor variable x is the latitude (degrees North) at the center of each of 49 states in the U.S. [(dataset.csv)](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/SkinCancer.csv)    
   <p align="center">
   	<img width="502" height="333" src="https://newonlinecourses.science.psu.edu/stat501/sites/onlinecourses.science.psu.edu.stat501/files/01simple/scatterplot_skin_cancer/index.png">
   </p>
@@ -79,14 +79,14 @@
 - <b><i>b</i><sub>0</sub></b> is known as the Intercept or Constant, where line crosses the Vertical axis  
 	- Formula to find Intercept:
 <p align="center">
-	<img width="130" height="48" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/Formulas/Intercept.JPG?raw=true">
+	<img width="130" height="48" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Formulas/Intercept.JPG?raw=true">
 </p>
 
 - <b><i>b</i><sub>1</sub></b> Slope of the line
 	- Formula to find Slope of the Line:
 	- Here <b>X&#772;</b> is the Mean of X, and <b>y&#772;</b> is the Mean of y
 <p align="center">
-	<img width="226" height="77" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/Formulas/Slope.JPG?raw=true">
+	<img width="226" height="77" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Formulas/Slope.JPG?raw=true">
 </p>
 
 - If you want to find Intercept first you need to find Slope value then you can determine the intercept point.
@@ -98,17 +98,17 @@
 	- Finally find Best-Fit Line <b>y&#770;<sub>i</sub></b>.
 
 ##### 3.1 - Example: 
-- The data-set used here is Bill Amount (vs) Tip Amount data-set [BillvsTip.csv](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/BillTip.csv), we are going to predict the Best-Fit line for the problem.    
+- The data-set used here is Bill Amount (vs) Tip Amount data-set [BillvsTip.csv](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/BillTip.csv), we are going to predict the Best-Fit line for the problem.    
 - Please refer the below chat to find the solution for each step, which will give us the value for <b><i>b</i><sub>1</sub></b> Slope is <b>0.146</b> and value for <b><i>b</i><sub>0</sub></b> Intercept is <b>-0.802</b>
 
 <p align="center">
-  	<img width="906" height="178" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Simple%20Linear%20Regression/References/Tabular-BillvsTip.JPG?raw=true">
+  	<img width="906" height="178" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Simple%20Linear%20Regression/References/Tabular-BillvsTip.JPG?raw=true">
 </p>
 
 - By obtaining the values for <b><i>b</i><sub>1</sub></b> and <b><i>b</i><sub>0</sub></b> we can now find the Best-Fit line of our problem, please find the below image. and we can see here our Best-Fit line of the prediction line is passing through the <b>Centroid (74, 10)</b>.
 
 <p align="center">
-  	<img width="419" height="296" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Simple%20Linear%20Regression/References/BillvsTip.JPG?raw=true">
+  	<img width="419" height="296" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Simple%20Linear%20Regression/References/BillvsTip.JPG?raw=true">
 </p>
 
 - Since the SLR will tell you the statistical relationship between two variables which is not perfect. we can see some Error in our Model
@@ -120,7 +120,7 @@
 - Formula to Sum of Squared Error or Sum of Squared Residual is:
 
 <p align="center">
-  	<img width="157" height="78" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/Formulas/sum%20of%20the%20squared%20residual%20errors.JPG?raw=true">
+  	<img width="157" height="78" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Formulas/sum%20of%20the%20squared%20residual%20errors.JPG?raw=true">
 </p>
  
 ### 4 - Determination of r-square(Accuracy):
@@ -142,22 +142,22 @@
 - Please find the Model summary for our Prediction problem below.
 
 <p align="center">
-  	<img width="562" height="347" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Simple%20Linear%20Regression/References/BillvsTipSummary.JPG?raw=true">
+  	<img width="562" height="347" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Simple%20Linear%20Regression/References/BillvsTipSummary.JPG?raw=true">
 </p>
 
 
 ### 5 - Simple Linear Regression in Python:
-- [How to write your First Program in Python](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Simple%20Linear%20Regression/Simple%20Linear%20Regression%20in%20Python.md)
+- [How to write your First Program in Python](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Simple%20Linear%20Regression/Simple%20Linear%20Regression%20in%20Python.md)
 - If you completed the above step, Congrats you have created your first machine learning model using Python.
 - Still worried how it is a machine learning ? here is your answer, in the above program you have created a model(machine) that learned from its input IV and predicted result.
 
 ### 6 - Additional Use-cases:
-1) Create a Machine Learning model in python to summarize trend between [Employee Yrs of Experience (vs) Salary]. [[dataset.csv]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/Salary_Data.csv)   
+1) Create a Machine Learning model in python to summarize trend between [Employee Yrs of Experience (vs) Salary]. [[dataset.csv]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/Salary_Data.csv)   
 2) Create a Machine Learning model in python to summarize trend between [Latitude (vs) Skin Cancer Morality].
-[[dataset.csv]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/SkinCancer.csv)    
-3) Create a Machine Learning model in python to summarize trend between [Height (vs) Weight].[[dataset.csv]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/Book1.csv)   
-4) Create a Machine Learning model in python to summarize trend between [Age (vs) Blood Fat].[[dataset.csv]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/BloodFatCalculator.csv)   
-5) Create a Machine Learning model in python to summarize trend between [Kilowatts (vs) Bill Units].[[dataset.csv]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/ElectricityCalculator.csv)
+[[dataset.csv]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/SkinCancer.csv)    
+3) Create a Machine Learning model in python to summarize trend between [Height (vs) Weight].[[dataset.csv]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/Book1.csv)   
+4) Create a Machine Learning model in python to summarize trend between [Age (vs) Blood Fat].[[dataset.csv]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/BloodFatCalculator.csv)   
+5) Create a Machine Learning model in python to summarize trend between [Kilowatts (vs) Bill Units].[[dataset.csv]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/ElectricityCalculator.csv)
 
 ##### Reference URL:    
   [To Understand Concepts Behind SLR - Site](https://newonlinecourses.science.psu.edu/stat501/node/250/)    

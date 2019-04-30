@@ -134,7 +134,7 @@
 
 # 5.Installing Anaconda and Python in your Machine:
 - It is recommended to have at-least machine with 8GB-RAM. i prefer to go with Anaconda since it gives you all the libraries more handy
-- Open the following URL in our browser, [Anaconda Installing User Guide](https://conda.io/docs/user-guide/install/windows.html).
+- Open the following URL in our browser, [Anaconda Installing User Guide](https://docs.anaconda.com/anaconda/install/windows/).
 - Find 2 Different types of Installation modes available in the Doc Page as shown below.
 
 <p align="center">
@@ -164,7 +164,7 @@
 
 # 6.How to start with Spyder IDE:
 - If you want to get in hand with, Machine Learning and Data Science practices one of the best tool that i can suggest is Spyder IDE, which comes along with Anaconda installation.
-- As a pre-requisite before proceeding this topic, i suggest yout to look in to the following link to install anaconda in your machine. [link to install Anaconda](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/1-Introduction/README.md#5installing-anaconda-and-python-in-your-machine).
+- As a pre-requisite before proceeding this topic, i suggest yout to look in to the following link to install anaconda in your machine. [link to install Anaconda](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/1-Introduction/README.md#5installing-anaconda-and-python-in-your-machine).
 - Once you completed installing anaconda in your machine, navigate to start and type Anaconda you will find the following Icon in start menu
 
 <p align="center">

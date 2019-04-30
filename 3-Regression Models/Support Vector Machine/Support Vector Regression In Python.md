@@ -31,7 +31,7 @@ df = pd.read_excel('AirQualityUCI.xlsx')
 
 ### 4 - Handle Missing Data:(Optional)
 - Our data-ser contains missing data in the form of (-200) default value. so we are going to handle this in Dataframe itself.
-- To know more about how to handle Missing value in numpy.ndArray [click here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing#1-handling-missing-data) to see.
+- To know more about how to handle Missing value in numpy.ndArray [click here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#1-handling-missing-data) to see.
 - In this Function we are taking a pandas Dataframe as input and returning pandas Dataframe as output
 - First we are filtering colum belong to **Object, float64, int64** and for that Dtype columns only we are going to apply missing value
 - For our case we are considering **most_frequent** value as replacement value. and if most occured value itself missing value means we are considering 2'nd most occured value of the column. 
@@ -67,7 +67,7 @@ y = df.iloc[:, -1].values.astype(np.float64)
 sc_X = StandardScaler()
 X = sc_X.fit_transform(X)
 ``` 
-- Please [click here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing#4-feature-scaling) to know how to handle Feature Scaling in your problem.
+- Please [click here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#4-feature-scaling) to know how to handle Feature Scaling in your problem.
 
 ### 7. Apply Backward Elemination to statistically significant variables:(Important and Automated Way)
 - One of the Important and difficult step in Regression model when we are having morethan 2 Independent variables is to check whether we are falling in to dummy varibale trap. to ensure this we included the following step which will consider only **statistically significant variables**

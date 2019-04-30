@@ -39,7 +39,7 @@ y = dataset['MPG']
 sc_X = StandardScaler()
 X = sc_X.fit_transform(X)
 ``` 
-- Please [click here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing#4-feature-scaling) to know how to handle Feature Scaling in your problem.
+- Please [click here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#4-feature-scaling) to know how to handle Feature Scaling in your problem.
 
 ### 5 - Creating Polynomial Feature Model
 - The next step in Polynomial Regression is the create a Polynomial features of IV's. To do this we are going to use a library form ```sklearn``` called ```PolynomialFeatures```. which takes one important parameter called **degree**, this degree is similar to learning rate in NeuralNetworks, based on the degree value our model will try to best fit to the data-set. 

@@ -11,7 +11,7 @@
 
 ### 1. Introduction
 - Hi Welcome to 4'th part of Regression models - **Support Vector Regression[SVR]** which is sub class of a familiar ML-Model **Support Vector Machine[SVM]**.
-- I recommend you to look in to [SVM-Support Vector Machine](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/SVM#support-vector-machine) intution to get more understanding on SVR.
+- I recommend you to look in to [SVM-Support Vector Machine](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/SVM#support-vector-machine) intution to get more understanding on SVR.
 - The Support-Vector algorithm is a nonlinear generalization of the Generalized Portrait algorithm, it is firmly grounded in the framework of statistical learning theory, or VC theory.
 - In a nutshell, VC theory characterizes properties of learning machines which enable them to generalize well to unseen data.
 -  Our goal is to find a function f(x) that has at most <b>ε</b> deviation from the actually obtained targets <b>y<sub>i</sub></b> for all the training data, and at the same time is as flat as possible.
@@ -48,25 +48,25 @@
 	- In SVR, we tried to fit the error within the boundary threshold, so we can get more accuracy and better prediction in our model.
 
 ### 2. Support Vector Regression in Python:
-- [How to Write your first program in Python](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Support%20Vector%20Machine/Support%20Vector%20Regression%20In%20Python.md#support-vector-regression-in-python)
+- [How to Write your first program in Python](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Support%20Vector%20Machine/Support%20Vector%20Regression%20In%20Python.md#support-vector-regression-in-python)
 - If you completed the above step, Congrats you have created your **SVR** machine learning model using Python.
 
 ### 3. Additional Use-cases:
-1. Create a Machine Learning Model to predict Car Price and compare your results with Multi-Linear and Polynomial results.[[Car Price Prediction]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Support%20Vector%20Machine/Dataset/Car_Price_Prediction.csv)
-2. Create a Machine Learning Model to predict Air Quality.[[Air Quality]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Support%20Vector%20Machine/Dataset/AirQualityUCI.csv)
-3. Create a Machine Learning model to predict ERP-estimated relative performance of a computer and compare it with Multi-Linear and Polynomial results.[[ERP Prediction]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Support%20Vector%20Machine/Dataset/ERP_Prediction.csv)
-4. Create a Machine Learning model to predict Wine Quality using SVR.[[Wine Quality]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Support%20Vector%20Machine/Dataset/winequality-red.csv)
+1. Create a Machine Learning Model to predict Car Price and compare your results with Multi-Linear and Polynomial results.[[Car Price Prediction]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Support%20Vector%20Machine/Dataset/Car_Price_Prediction.csv)
+2. Create a Machine Learning Model to predict Air Quality.[[Air Quality]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Support%20Vector%20Machine/Dataset/AirQualityUCI.csv)
+3. Create a Machine Learning model to predict ERP-estimated relative performance of a computer and compare it with Multi-Linear and Polynomial results.[[ERP Prediction]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Support%20Vector%20Machine/Dataset/ERP_Prediction.csv)
+4. Create a Machine Learning model to predict Wine Quality using SVR.[[Wine Quality]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Support%20Vector%20Machine/Dataset/winequality-red.csv)
 
 
 ##### Reference URL:
 [Use Cases reference](https://github.com/ManikandanJeyabal/Workplace/tree/master/DataScience/Regression/Support%20Vector%20Machine)   
-[SVM - Support Vector Machine](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/SVM#support-vector-machine)  
+[SVM - Support Vector Machine](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/SVM#support-vector-machine)  
 [How Does SVR Works](https://www.quora.com/How-does-support-vector-regression-work)  
 [how does support vector regression work intuitively](https://stats.stackexchange.com/questions/82044/how-does-support-vector-regression-work-intuitively)
 
 ##### Similar Topics:
-[1. Simple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Simple%20Linear%20Regression#simple-linear-regression)   
-[2. Multi Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Multi%20Linear%20Regression#multi-linear-regression)   
-[3. Polynomial Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Polynomial%20Regression#polynomial-regression)  
+[1. Simple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Simple%20Linear%20Regression#simple-linear-regression)   
+[2. Multi Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Multi%20Linear%20Regression#multi-linear-regression)   
+[3. Polynomial Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Polynomial%20Regression#polynomial-regression)  
 [4. Decision Tree Regression]()  
 [5. Random Forest Regression]()  

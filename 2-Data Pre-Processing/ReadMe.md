@@ -8,10 +8,10 @@
 	- This is know as Missing data Handling in data Pre-processing.
 - Another aspect is that data set should be formatted in such a way that more than one Machine Learning and Deep Learning algorithms are executed in one data set, and best out of them is chosen.
 - In this part you will learn techniques available in data Pre-processing and how to get in handy with them. Data Pre-processing has the following stages:
-	1. [Handling Missing Data](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing#1-handling-missing-data)
-	2. [Handling Categorical Data](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing#2-handling-categorical-data)
-	3. [Splitting Data-Set into Dev/Training/Test set](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing#3-spliting-your-data-set-into-devtrainingtest-set)
-	4. [Feature Scaling](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing#4-feature-scaling)
+	1. [Handling Missing Data](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#1-handling-missing-data)
+	2. [Handling Categorical Data](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#2-handling-categorical-data)
+	3. [Splitting Data-Set into Dev/Training/Test set](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#3-spiting-your-data-set-into-devtrainingtest-set)
+	4. [Feature Scaling](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#4-feature-scaling)
 
 ### 1. Handling Missing Data
 - As all we know the term Missing data refers to the data actually not available in the expected field or available as Null or empty. if we are not addressing this issue with high priority your machine learning model will give poor prediction result.
@@ -117,20 +117,20 @@ X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size=0.2) # Creati
 				- Divide the values (mean is already subtracted) of each feature by its standard deviation.
 				- <b>x</b> is the original feature vector, <b>x&#772; = average(x)</b> is the mean of that feature vector and  <b>&sigma;</b> is its standard deviation.
 				<p align="center">
-  					<img width="161" height="82" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing/Reference/Standardisation.JPG?raw=true">
+  					<img width="161" height="82" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/2-Data%20Pre-Processing/Reference/Standardisation.JPG?raw=true">
 				</p>
 		2. **Mean Normalisation**:
 			- This distribution will have values between **-1 and 1** with **μ=0**.
 			- <b>x</b> is the original value, <b>x'</b> is the normalized value.
 			- **Standardisation** and **Mean Normalization** can be used for algorithms that assumes zero centric data like **Principal Component Analysis(PCA)**.
 			<p align="center">
-  				<img width="272" height="105" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing/Reference/Mean%20Normalization.JPG?raw=true">
+  				<img width="272" height="105" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/2-Data%20Pre-Processing/Reference/Mean%20Normalization.JPG?raw=true">
 			</p>
 		3. **Min-Max Scaling(Rescaling)**:
 			-  is the simplest method and consists in rescaling the range of features to scale the range in **[0, 1] or [−1, 1]**.
 			- Selecting the target range depends on the nature of the data.
 			<p align="center">
-  				<img width="284" height="95" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing/Reference/Min-Max%20Scaling.JPG?raw=true">
+  				<img width="284" height="95" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/2-Data%20Pre-Processing/Reference/Min-Max%20Scaling.JPG?raw=true">
 			</p>
 		4. **Unit Vector**:
 			- Scaling is done considering the whole feature vecture to be of unit length.
@@ -138,7 +138,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size=0.2) # Creati
 			- When dealing with features with hard boundaries this is quite useful.
 			- For example, when dealing with image data, the colors can range from only 0 to 255.
 			<p align="center">
-  				<img width="178" height="94" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing/Reference/Unit%20Vector.JPG?raw=true">
+  				<img width="178" height="94" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/2-Data%20Pre-Processing/Reference/Unit%20Vector.JPG?raw=true">
 			</p>
 - Some examples of algorithms where feature scaling matters are:
 	- **k-nearest neighbors** with an Euclidean distance measure is sensitive to magnitudes and hence should be scaled for all features to weigh in equally.

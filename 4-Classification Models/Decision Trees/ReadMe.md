@@ -1,7 +1,7 @@
 # Decision Tree Classification
 
 - Hi, Welcome to 5'th part of Classification algorithms. Here we are going to see in-detail about Decision Tree Algorithms for Classification problems.
-- In Regression module we have covered the usage of Decision tree Algorithm and its application in-details. If you missed out to check out it please [Click Here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/DTrees/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Decision%20Trees#decision-tree-regression) to proceed with Decision tree with Regression. 
+- In Regression module we have covered the usage of Decision tree Algorithm and its application in-details. If you missed out to check out it please [Click Here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees#decision-tree-regression) to proceed with Decision tree with Regression. 
 
 ### 1. Introduction:
 - Decision tree builds **Classification** or **Regression models** in the form of a tree structure. It breaks down a data-set into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed.
@@ -35,9 +35,9 @@
 	5. **MARS** - extends decision trees to handle numerical data better
 	6. **Conditional Inference Trees**: Statistics-based approach that uses non-parametric tests as splitting criteria, corrected for multiple testing to avoid overfitting. This approach results in unbiased predictor selection and does not require pruning.
 - We are going to see the following most widely used Algorithms in real-world era to solve classification problems.
-	1. [ID3](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/Decision%20Trees/ReadMe-ID3.md#id3---iterative-dichotomizer-3)
-	2. [C4.5 (or) J4.8](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/Decision%20Trees/ReadMe-C45.md#c-45-improved-version-of-id3)
-	3. [CART](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/Decision%20Trees/ReadMe-CART.md#cart---classification-and-regression-tree)
+	1. [ID3](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/ReadMe-ID3.md#id3---iterative-dichotomizer-3)
+	2. [C4.5 (or) J4.8](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/ReadMe-C45.md#c-45-improved-version-of-id3)
+	3. [CART](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/ReadMe-CART.md#cart---classification-and-regression-tree)
 
 ### 3. Metrics Behind D-Trees:
 - Algorithms for constructing decision trees usually work top-down, by choosing a variable at each step that best splits the set of items.
@@ -45,7 +45,7 @@
 - ***Gini Index (Gini Impurity)***:
 
 <p align="center">
-  <img width="652" height="80" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/Decision%20Trees/References/CART-Gini%20Coeff.JPG?raw=true">
+  <img width="652" height="80" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/References/CART-Gini%20Coeff.JPG?raw=true">
 </p>
 <p align="center">
 	<b> Ref: https://en.wikipedia.org/wiki/Decision_tree_learning </b>
@@ -55,7 +55,7 @@
 - ***Information Gain***      
 
 <p align="center">
-  <img width="1361" height="313" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/Decision%20Trees/References/ID3-Information%20Gain.JPG?raw=true">
+  <img width="1361" height="313" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/References/ID3-Information%20Gain.JPG?raw=true">
 </p>
 <p align="center">
 	<b> Ref: https://en.wikipedia.org/wiki/ID3_algorithm </b>
@@ -64,7 +64,7 @@
 - ***Entropy***   
 
 <p align="center">
-  <img width="1374" height="281" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/DTrees/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/Decision%20Trees/References/ID3-Entropy.JPG?raw=true">
+  <img width="1374" height="281" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/References/ID3-Entropy.JPG?raw=true">
 </p>
 <p align="center">
 	<b> Ref: https://en.wikipedia.org/wiki/ID3_algorithm </b>
@@ -83,7 +83,7 @@
 - Overfitting is one of the problem we will encounter in most of the machine learning models is a significant practical difficulty for D-Trees and other predictive algorithms.
 - In simple, "Overfitting is a modeling error which occurs when a function is too closely fit to a limited set of data points".
 - In statistics, "The production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit additional data or predict future observations reliably".
-- We also seen [Bias-Variance](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Polynomial%20Regression#2-bias-variance-trade-off) trade-off in ***Polynomial Regression***
+- We also seen [Bias-Variance](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Polynomial%20Regression#2-bias-variance-trade-off) trade-off in ***Polynomial Regression***
 - Concepts like ***Pre-Pruning*** and ***Post-Pruning*** will help us to avoid overfitting in building decision trees.
 - **Pre-Pruning**:
 	- Stop growing the tree earlier, before it perfectly classifies the training set.

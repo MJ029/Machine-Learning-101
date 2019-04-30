@@ -28,13 +28,13 @@
 - Suppose you are given plot of two label classes on graph as shown in below image(Fig-1). Can you decide a separating line for the classes? **Note:** here **X** and **Y** are considered as dimensions.
 
 <p align="center">
-  <img width="321" height="258" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/SVR-Development/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/SVM/Reference/Sample-Data-Fig1.jpg?raw=true">
+  <img width="321" height="258" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/SVM/Reference/Sample-Data-Fig1.jpg?raw=true">
 </p>   
 
 - You might have come up with something similar to below image(Fig-2). It fairly separates the two classes[For Assumpsion].
 
 <p align="center">
-  <img width="348" height="303" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/SVR-Development/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/SVM/Reference/Sample-Assumption-Fig1.JPG?raw=true">
+  <img width="348" height="303" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/SVM/Reference/Sample-Assumption-Fig1.JPG?raw=true">
 </p>
 
 - Any point that is left of line falls into blue Plus class and on right falls into Orange Minus class.
@@ -42,7 +42,7 @@
 - It finds out a Optimal line/hyper-plane between two classes shown as below image(Fig-3)[Green line is the Optimal Hyper-plane].
 
 <p align="center">
-  <img width="339" height="269" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/SVR-Development/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/4-Classification%20Models/SVM/Reference/Sample-Assumption-Fig2.JPG?raw=true">
+  <img width="339" height="269" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/SVM/Reference/Sample-Assumption-Fig2.JPG?raw=true">
 </p>
 
 

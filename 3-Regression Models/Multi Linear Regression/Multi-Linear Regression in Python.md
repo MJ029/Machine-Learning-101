@@ -41,7 +41,7 @@ onehot_encoder = preprocessing.OneHotEncoder(categorical_features = [3])
 X = onehot_encoder.fit_transform(X).toarray()
 X = X[:, 1:]
 ```
-- Please [click here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Multi%20Linear%20Regression#2-dummy-variables) to find how categorical data works.
+- Please [click here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Multi%20Linear%20Regression#2-dummy-variables) to find how categorical data works.
 
 ### 5. Feature Scaling:(Optional)
 - This step is also optional, if you data-set having Dependent/Independent Variable dominating other then we have to perform feature scaling.   
@@ -50,10 +50,10 @@ from sklearn.preprocessing import StandardScaler
 sc_X = StandardScaler()
 X = sc_X.fit_transform(X)
 ``` 
-- Please [click here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing#4-feature-scaling) to know how to handle Feature Scaling in your problem.
+- Please [click here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#4-feature-scaling) to know how to handle Feature Scaling in your problem.
 
 ### 6. Model Selection using Backward Elimination:
-- Usually for all our model creation and evaluation we will stick with sklearn library, but for this model selection alone we are going to proceed with statlmodel library. [Click here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20%2B%20Machine%20Learning%20%2B%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Multi%20Linear%20Regression#32-backward-elimination-fastest-one-of-all-of-them-and-recommended-to-choose-this-model) to see the Backward Elimination work flow.
+- Usually for all our model creation and evaluation we will stick with sklearn library, but for this model selection alone we are going to proceed with statlmodel library. [Click here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Multi%20Linear%20Regression#32-backward-elimination-fastest-one-of-all-of-them-and-recommended-to-choose-this-model) to see the Backward Elimination work flow.
 - In sklearan everything is auto initialized like constants intercept etc... but in statsmodel An intercept is not included by default and should be added by the user.
 ```py
 X_stats = sm.add_constant(X)
@@ -64,7 +64,7 @@ reg.summary()
 - The above code will produce the following result. 
 
 <p align="center">
-  <img width="652" height="527" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Multi%20Linear%20Regression/References/OLS_1.JPG?raw=true">
+  <img width="652" height="527" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Multi%20Linear%20Regression/References/OLS_1.JPG?raw=true">
 </p>   
 
 - If you remembered the Backward Elimination process the process it identify the predictor having higher than significant value in our case (SL=0.005) and remove it and fit model with remaining predictors and repeat the same until P > SL condition fails.
@@ -78,7 +78,7 @@ reg.summary()
 - By running the above code we got the below result as summary. 
 
 <p align="center">
-  <img width="653" height="519" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Multi%20Linear%20Regression/References/OLS_2.JPG?raw=true">
+  <img width="653" height="519" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Multi%20Linear%20Regression/References/OLS_2.JPG?raw=true">
 </p>   
 
 - In the summary it clearly shows the current (<b>X<sub>1</sub></b>) - [second encoded categorical variable] is having higher P-Value = 0.864. so remove this and fit model with remaining predictors.
@@ -92,7 +92,7 @@ reg.summary()
 - The above code will produce below summary.
 
 <p align="center">
-  <img width="658" height="485" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Multi%20Linear%20Regression/References/OLS_3.JPG?raw=true">
+  <img width="658" height="485" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Multi%20Linear%20Regression/References/OLS_3.JPG?raw=true">
 </p>   
 
 - In the summary it clearly shows the current (<b>X<sub>1</sub></b>) - [Miles Traveled] is having higher P-Value = 0.527. so remove this and fit model with remaining predictors.
@@ -106,7 +106,7 @@ reg.summary()
 - The above code will produce below summary.
 
 <p align="center">
-  <img width="655" height="442" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Multi%20Linear%20Regression/References/OLS_4.JPG?raw=true">
+  <img width="655" height="442" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Multi%20Linear%20Regression/References/OLS_4.JPG?raw=true">
 </p>   
 
 - In the summary it clearly shows the current (<b>X<sub>2</sub></b>) - [GasPrice] is having higher P-Value = 0.148. which is quit higher than our SL=0.005 so remove this and fit model with remaining predictors.
@@ -117,7 +117,7 @@ reg.summary()
 ```
 
 <p align="center">
-  <img width="670" height="423" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/3-Regression%20Models/Multi%20Linear%20Regression/References/OLS_5.JPG?raw=true">
+  <img width="670" height="423" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Multi%20Linear%20Regression/References/OLS_5.JPG?raw=true">
 </p>   
 
 - Bravo the current model satisfy our condition and it gives P-Value < SL. so our model is ready and we can go ahead to next step.
@@ -130,7 +130,7 @@ reg.summary()
 ```py
 X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size = 0.2, random_state = 0)
 ```
-- The above code will split your data-set into Training and Test sets. if you want to know more about Train/Test split please [click here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/Python%20+%20Machine%20Learning%20+%20Deep%20Learning/Machine%20Learning%20The%20Complete%20Reference/2-Data%20Pre-Processing#3-spiting-your-data-set-into-devtrainingtest-set)
+- The above code will split your data-set into Training and Test sets. if you want to know more about Train/Test split please [click here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#3-spiting-your-data-set-into-devtrainingtest-set)
 
 
 ### 8. Model Creation using sklearn.linear_model library:
