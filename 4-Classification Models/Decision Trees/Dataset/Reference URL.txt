@@ -1,0 +1,10 @@
+Primary Tumor Data Set  --> https://archive.ics.uci.edu/ml/datasets/Primary+Tumor
+Mushroom Data Set  --> https://archive.ics.uci.edu/ml/datasets/Mushroom
+Lenses Data Set  --> https://archive.ics.uci.edu/ml/datasets/Lenses
+Breast Cancer Data Set -->https://archive.ics.uci.edu/ml/datasets/Breast+Cancer3
+TicTacToe --> https://archive.ics.uci.edu/ml/datasets/Tic-Tac-Toe+Endgame
+Audiology --> https://archive.ics.uci.edu/ml/datasets/Audiology+%28Original%29
+
+
+How to implement all model to your dataset:
+https://datascience.stackexchange.com/questions/16728/could-not-convert-string-to-float-error-on-kddcup99-dataset

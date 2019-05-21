@@ -1,10 +1,15 @@
 # Decision Tree Classification
 
+### Points To Remember:
+  - D-Tree
+  - Attribute - IV
+  - Target Variable - DV
+
 - Hi, Welcome to 5'th part of Classification algorithms. Here we are going to see in-detail about Decision Tree Algorithms for Classification problems.
-- In Regression module we have covered the usage of Decision tree Algorithm and its application in-details. If you missed out to check out it please [Click Here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees#decision-tree-regression) to proceed with Decision tree with Regression. 
+- In Regression Models we have covered the usage of Decision tree Algorithm and its application in-details. If you missed out to check out it please [Click Here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees#decision-tree-regression) to proceed with Decision tree for Regression. 
 
 ### 1. Introduction:
-- Decision tree builds **Classification** or **Regression models** in the form of a tree structure. It breaks down a data-set into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed.
+- Decision tree builds **Classification** or **Regression models** in the form of a tree structure. It breaks down a data-set into smaller subsets while at the same time an associated decision tree is incrementally developed.
 - D-Tree is one of the predictive modeling approaches used in **statistics**, **data mining** and **machine learning**.
 - The resulting **D-Tree** contains 3 parts **Root Node**, **Decision Nodes** and **Leaf Nodes**. 
 - A **Decision Node** has two or more branches which holds attributes(IV's) where else a **Leaf Node** represents a classification or decision(DV).
@@ -26,14 +31,16 @@
 - ***Decision List*** is one special type of decision tree algorithm available which is a one-sided decision tree, so that every internal node has exactly 1 leaf node and exactly 1 internal node as a child (except for the bottom-most node, whose only child is a single leaf node).
 
 ### 2. Types of Decision Tree Algorithm:
-- As we know D-Trees can be applied for both Regression and Classification problems, The below Fig shows how to identify each category of D-Tree algorithm. We are considering most commonly used 3 Algorithms.
+- As we know D-Trees can be applied for both Regression and Classification problems, The below summary shows how to identify each category of D-Tree algorithm. We are considering most commonly used 3 Algorithms.
 - There are several algorithms available in D-Trees as follows
 	1. **ID3** - Iterative Dichotomiser 3
 	2. **C4.5 (or) J4.8** - successor of ID3
 	3. **CART** - Classification And Regression Tree
 	4. **CHAID** - Chi-square automatic interaction detection
 	5. **MARS** - extends decision trees to handle numerical data better
-	6. **Conditional Inference Trees**: Statistics-based approach that uses non-parametric tests as splitting criteria, corrected for multiple testing to avoid overfitting. This approach results in unbiased predictor selection and does not require pruning.
+	6. **Conditional Inference Trees**: Statistics-based approach that uses non-parametric tests as splitting 
+	7. criteria, corrected for multiple testing to avoid overfitting. This approach results in unbiased predictor selection and does not require pruning.
+	8. Regression Model - DTrees can be used in Regression problems, which used Standard Deviation Reduction concept to build tree
 - We are going to see the following most widely used Algorithms in real-world era to solve classification problems.
 	1. [ID3](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/ReadMe-ID3.md#id3---iterative-dichotomizer-3)
 	2. [C4.5 (or) J4.8](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/ReadMe-C45.md#c-45-improved-version-of-id3)
@@ -41,25 +48,28 @@
 
 ### 3. Metrics Behind D-Trees:
 - Algorithms for constructing decision trees usually work top-down, by choosing a variable at each step that best splits the set of items.
-- Different algorithms use different metrics for measuring "best" such as ***Gini Index(Gini Impurity)***, ***Information Gain*** and ***Gain Ratio*** and ***Entropy***.
+- Different algorithms use different metrics for measuring "best" such as ***Gini Index(Gini Impurity)***, ***Information Gain*** and ***Gain Ratio*** and ***Entropy*** and ***SDR - Standard Deviation Reduction***(For Regression Problems).
 - ***Gini Index (Gini Impurity)***:
 
 <p align="center">
-  <img width="652" height="80" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/References/CART-Gini%20Coeff.JPG?raw=true">
-</p>
-<p align="center">
-	<b> Ref: https://en.wikipedia.org/wiki/Decision_tree_learning </b>
-</p>      
+  <img width="456" height="465" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/References/CART%20-%20Gini%20Index.JPG?raw=true">
+</p>         
 
-- ***Gain Ratio***      
+- ***Gain Ratio***   
+
+<p align="center">
+  <img width="500" height="460" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/References/C4.5-Gain%20Ratio.JPG?raw=true">
+</p>   
+
+   
 - ***Information Gain***      
 
 <p align="center">
   <img width="1361" height="313" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/4-Classification%20Models/Decision%20Trees/References/ID3-Information%20Gain.JPG?raw=true">
-</p>
+</p>   
 <p align="center">
 	<b> Ref: https://en.wikipedia.org/wiki/ID3_algorithm </b>
-</p>   
+</p>
 
 - ***Entropy***   
 
@@ -68,6 +78,18 @@
 </p>
 <p align="center">
 	<b> Ref: https://en.wikipedia.org/wiki/ID3_algorithm </b>
+</p>
+
+- ***Standard Deviation Reduction***
+
+<p align="center">
+  <img width="350" height="75" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Decision%20Trees/References/FORMULA-SDR.JPG?raw=true">
+</p>
+
+- ***Standard Deviation***
+
+<p align="center">
+  <img width="205" height="104" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Decision%20Trees/References/FORMULA-SD.JPG?raw=true">
 </p>
 
 
