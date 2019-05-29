@@ -22,4 +22,4 @@
 	- [Polynomial Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Polynomial%20Regression#polynomial-regression)
 	- [SVR - Support Vector Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Support%20Vector%20Machine/ReadMe.md#svr---support-vector-regression)
 	- [Decision Tree Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees#decision-tree-regression)
-	- Random Forest Regression
+	- [Random Forest Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Random%20Forest%20Regression#random-forest-regression)
