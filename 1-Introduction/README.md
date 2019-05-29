@@ -16,7 +16,7 @@
 		4. [SVR - Support Vector Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Support%20Vector%20Machine/ReadMe.md#svr---support-vector-regression)
 		5. [Decision Tree Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees#decision-tree-regression)
 			1. [SDR](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees/ReadMe-SDR.md#standard-deviation-reduction)
-		6. Random Forest Regression
+		6. [Random Forest Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Random%20Forest%20Regression#random-forest-regression)
 		7. Evaluating Model Performance
 	3. Classification 
 		 1. Logistic Regression
@@ -27,7 +27,7 @@
 			 1. [ID3](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/Decision%20Trees/ReadMe-ID3.md#id3---iterative-dichotomizer-3)
 			 2. [C4.5 or J4.8](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/Decision%20Trees/ReadMe-C45.md#c-45-improved-version-of-id3)
 			 3. [CART](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/Decision%20Trees/ReadMe-CART.md#cart---classification-and-regression-tree)
-		 6. Random Forest Classification
+		 6. [Random Forest Classification](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/Random%20Forest#random-forest-classification)
 	4. Clustering
 		 1. K-Means
 		 2. Hierarchical Clustering
