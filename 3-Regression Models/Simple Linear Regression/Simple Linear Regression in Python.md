@@ -10,6 +10,7 @@
 ### 2 - Import Libraries:
 - If you want to write your own program to predict Simple Linear Regression you need to import the needed libraries first. for most of the models in the course we are going to use sklearn libraries.
 ```py
+#Imprort Libraries
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -25,6 +26,7 @@ import statsmodels.api as sm
 - Here in **[:, :-1]**, **:** refers to fetch all rows from our data-set and **:-1** refers to fetch all columns other than last column, since we have only one column as IV in our data-set will fetch only one ndArray as **X**
 - **pandas.iloc.values** will actually fetch and load values from data-set to variable **X and y**.
 ```py
+#Import Dataset
 dataset = pd.read_csv('BillTip.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 1].values
@@ -34,6 +36,7 @@ y = dataset.iloc[:, 1].values
 - Once we got our IV and DV, it is recommended to Split your data in to Training set and Test Set.
 - But in our case our ID and DV contains only 6 rows we are not doing this step as of now for this Example, But please find the Below code to split your IV and DV.
 ```py
+#Spliting to train/test sets
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 ```
@@ -43,13 +46,15 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 - to Fit our model we are going to use **LinearRegression** from **sklearn.linear_model**
 - **Please refer the Documentation page to see the List of parameters it will accept.**
 ```py
+# Fitting Simple Linear Regression to the Training set
 regressor = LinearRegression()
 regressor.fit(X_train, y_trian)
 ```
 
 - once we created our LinearRegression model we need to fit it using .fit Method, that's it the fit method will do everything for you, simply we can call predict method to find predicted values
 ```py
-y_pred = regressor.predict(X)
+#Predicting the Ourput
+y_pred = regressor.predict(X_train)
 ```
 
 ### 6 - Find Intercept and Slope of our Prediction:
@@ -69,7 +74,7 @@ print("Slope --> ", round(regressor.coef_[0], 3))
 def getSSR(y_actual, y_pred):
     return round(sum(np.array([(i-(sum(y_actual)/len(y_actual)))**2 for i in y_pred])), 3)
 
-SSR = getSSR(y, y_round)
+SSR = getSSR(y_train, y_pred)
 print("SSR --> ", SSR)
 
 #Get SSE
@@ -91,15 +96,15 @@ r2 = round(SSR/SST, 3)*100
 print("R2 Calculated --> ", r2)
 
 # To find Accuracy r2
-print("R2 Model Predicted", round(r2_score(y, y_round), 3) * 100)
+print("R2 Model Predicted", round(r2_score(y_train, y_pred), 3) * 100)
 ```
 
 ### 9 - Plot your Results:
 - Plot and Visualize your results using Matplotlib.plot
 ```py
 # Visualising the results
-plt.scatter(X, y, color = 'red')
-plt.plot(X, y_round, color = 'blue')
+plt.scatter(X_train, y_train, color = 'red')
+plt.plot(X_train, y_pred, color = 'blue')
 plt.title('Bill (vs) Tip Amount')
 plt.xlabel('Bill Amount')
 plt.ylabel('Tip Amount')
