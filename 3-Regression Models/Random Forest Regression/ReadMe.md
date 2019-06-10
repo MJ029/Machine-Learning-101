@@ -74,20 +74,20 @@
 ### 3. How Random forest is different from D-Trees:
 - As all we know Random Forest is a collection of Decision Trees which improves accuracy of the model by reducing the variance, still we have some difference between them as below mentioned areas.   
 
-**Model Fitting:**
-	- Let us assume we are feeding a input dataset with features and labels into a decision tree during training, it will formulate some set of rules, which will be used to make the predictions.
-	- For Example, you have to predict whether a person has Cancer or not. You could collect the attributes from his scan result and some features that describe it nature.
-	- If you put the features and labels into a decision tree, it will generate some rules. Then you can predict whether the person has cancer or not.
-	- In comparison, the Random Forest algorithm randomly selects observations and features to build several decision trees and then averages the results.
+**Model Fitting:**   
+- Let us assume we are feeding a input dataset with features and labels into a decision tree during training, it will formulate some set of rules, which will be used to make the predictions.   
+- For Example, you have to predict whether a person has Cancer or not. You could collect the attributes from his scan result and some features that describe it nature.   
+- If you put the features and labels into a decision tree, it will generate some rules. Then you can predict whether the person has cancer or not.   
+- In comparison, the Random Forest algorithm randomly selects observations and features to build several decision trees and then averages the results.   
 
-**OverFitting:**
-	- Deep decision trees might suffer from overfitting. Random Forest prevents overfitting most of the time, by creating random subsets of the features and building smaller trees using these subsets. 
+**OverFitting:**   
+- Deep decision trees might suffer from overfitting. Random Forest prevents overfitting most of the time, by creating random subsets of the features and building smaller trees using these subsets. 
 
-**Relative Feature Importance:**
-	- Another amazing fact of random forest is that it is very easy to measure the relative importance of each feature on the prediction.
-	- Sklearn provides a great tool for this, that measures a features importance by looking at how much the tree nodes, which use that feature, reduce impurity across all trees in the forest. 
-	- It computes this score automatically for each feature after training and scales the results, so that the sum of all importance is equal to 1.
-	- By looking the feature importance we can decice which feature to remove from input training set.
+**Relative Feature Importance:**   
+- Another amazing fact of random forest is that it is very easy to measure the relative importance of each feature on the prediction.   
+- Sklearn provides a great tool for this, that measures a features importance by looking at how much the tree nodes, which use that feature, reduce impurity across all trees in the forest.    
+- It computes this score automatically for each feature after training and scales the results, so that the sum of all importance is equal to 1.   
+- By looking the feature importance we can decice which feature to remove from input training set.
 	
 ### 4. Application Areas:
 - Random Forest can be used for wide range of Application ssuch as follows
@@ -99,7 +99,18 @@
 ### 5. Random Forest using Python
 - [How to Write your first program using python]()
 - If you completed the above steps you can see the Random Forest Algorithm predicts test samples based on training result.
+
+### 6. Additional Use-cases:
+- Try all the usecases you have completed in SLR, MLR, PNR, SVR and D-Trees with Random Forest regression and compare the accuracy.
 	
 ##### References:
+[Use Cases reference]()
 [Random Forest - Intiution](https://www.youtube.com/watch?v=3kYujfDgmNk)   
 [Random Forests - Leo Breiman and Adele Cutler](https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm)
+
+##### See Also:
+- [Simple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Simple%20Linear%20Regression#simple-linear-regression)
+- [Multiple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Multi%20Linear%20Regression#multi-linear-regression)
+- [Polynomial Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Polynomial%20Regression#polynomial-regression)
+- [SVR - Support Vector Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Support%20Vector%20Machine/ReadMe.md#svr---support-vector-regression)
+- [Decision Tree Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees#decision-tree-regression)

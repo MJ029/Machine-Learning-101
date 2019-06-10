@@ -10,6 +10,7 @@
 ### 2. Import Libraries:
 - As part of MRL model creation you need to import the below libraries.
 ```py
+#Import Libraries
 import pandas
 import numpy
 from sklearn import model_selection, preprocessing, linear_model
@@ -25,6 +26,7 @@ import statsmodels.api as sm
 - Here in [:, :-1], : refers to fetch all rows from our data-set and :-1 refers to fetch all columns other than last column, since we have only one column as IV in our data-set will fetch only one ndArray as X
 - pandas.iloc.values will actually fetch and load values from data-set to variable X and y.
 ```py
+#Import Dataset
 dataset = pandas.read_csv('Logistics.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
@@ -35,6 +37,7 @@ y = dataset.iloc[:, -1].values
 - To Encode Categorical data as we discussed before we are going to use the following 2 libraries.
 - In our example we are having categorical data in 4'th[3'rd index in Array] column, so we are considering array index 3 for categorical data encoding.
 ```py
+#Handling Categorical Data
 lable_encoder = preprocessing.LabelEncoder()
 X[:, 3] = lable_encoder.fit_transform(X[:, 3])
 onehot_encoder = preprocessing.OneHotEncoder(categorical_features = [3])
@@ -46,6 +49,7 @@ X = X[:, 1:]
 ### 5. Feature Scaling:(Optional)
 - This step is also optional, if you data-set having Dependent/Independent Variable dominating other then we have to perform feature scaling.   
 ```py
+#Feature Scaling
 from sklearn.preprocessing import StandardScaler 
 sc_X = StandardScaler()
 X = sc_X.fit_transform(X)
@@ -128,6 +132,7 @@ reg.summary()
 - So the next step will be splitting our model into Train/Test sets.
 - For this task we are going to use a module called train_test_split from sklearn.model_selection.(Note: in old version of sklearn the train_test_split was under cross_validation model)
 ```py
+# Splitting the dataset into the Training set and Test set
 X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size = 0.2, random_state = 0)
 ```
 - The above code will split your data-set into Training and Test sets. if you want to know more about Train/Test split please [click here](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#3-spiting-your-data-set-into-devtrainingtest-set)
@@ -136,6 +141,7 @@ X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_s
 ### 8. Model Creation using sklearn.linear_model library:
 - use the following code to create and fit your model with Linear Regressor using sklearn.linear_model
 ```py
+# Fitting Multiple Linear Regression to the Training set
 regressor = linear_model.LinearRegression()
 regressor.fit(X_train, y_train)
 ```
@@ -144,12 +150,14 @@ regressor.fit(X_train, y_train)
 - Once your model is ready and fitted, the next step is to predict the model output and validate it.
 - use the below code to predict your model output
 ```py
+# Predicting the Test set results
 y_pred = regressor.predict(X_test)
 ```
 
 ### Determine Co-eff, Intercept and R-Squared(Model Accuracy) values:
 - Use the below code to determine your model metrics like Co-eff, Intercept and Accuracy of your model.
 ```py
+#Determine Co-Effecient and Intercept
 print('Co-Eff: --> ', regressor.coef_) # Here we have 3 Co-eff since we have 3 indipendent variable
 print('Intercept: --> ', regressor.intercept_) # Intercept will be same as SLR we have only one Intercept.
 print('Score on Training model--> ', regressor.score(X_train, y_train))

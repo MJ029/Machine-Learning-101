@@ -1,10 +1,5 @@
 # Machine-Learning-101
-Machine Learning 101 is a central repository intended to give detailed information about the Machine Learning Algorithms and the Math behind these Algorihms with set of usecases for each. users can use it widely to upskill themself in Machine learning. This repository is best suite for those who want to make their hands dirty in Machine learning and its Applications.
-
-- This Repository contains the complete Machine Learning course in to 2 parts:
-  1. Part - 1: Machine Learning with basics and its Applications
-  2. Part - 2: Machine Learning Advanced concepts and its Applications
-  
+Machine Learning 101 is a central repository intended to give detailed information about the Machine Learning Algorithms and the Math behind these Algorithms with set of use-cases for each. users can use it widely to up-skill them self in Machine learning. This repository is best suite for those who want to make their hands dirty in Machine learning and its Applications.  
   
 # Machine Learning 101 - The Complete Reference    
 1. [Introduction](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/1-Introduction/README.md#1about-the-course)
@@ -26,8 +21,7 @@ Machine Learning 101 is a central repository intended to give detailed informati
 	4. [SVR - Support Vector Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Support%20Vector%20Machine/ReadMe.md#svr---support-vector-regression)
 	5. [Decision Tree Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees#decision-tree-regression)
 		1. [ID3](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees/ReadMe-SDR.md#id3---iterative-dichotomiser-3)
-	6. [Random Forest Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Random%20Forest%20Regression#random-forest-regression)
-	7. Evaluating Model Performance
+	6. [Random Forest Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Random%20Forest%20Regression#random-forest-regression)   
 4. Classification 
 	 1. Logistic Regression
 	 2. K-NN

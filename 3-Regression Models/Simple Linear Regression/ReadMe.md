@@ -1,27 +1,28 @@
 # Simple Linear Regression
 
+
+#### Things to Remember:    
+- SLR -> Simple Linear Regression    
+- MLR -> Multi Linear Regression    
+- [Formula to find Mean](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Formulas/Mean.JPG?raw=true)    
+- [Formula to find Median](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Formulas/Median.JPG?raw=true)
+
 ### 1 - Introduction
 - Simple linear regression is a statistical method that allows us to summarize and study relationships(trend) between two continuous (quantitative) variables.
 - We are going to learn the concept and basic procedures of simple linear regression.
 - We will also learn two measures that describe the strength of the linear association that we find in data.
 
-###### 1.1 - Things to Remember:    
-  SLR -> Simple Linear Regression    
-  MLR -> Multi Linear Regression    
-  [Formula to find Mean](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Formulas/Mean.JPG?raw=true)    
-  [Formula to find Median](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/Formulas/Median.JPG?raw=true)
-
 ### 2 - What is Simple Linear Regression?
 - As we seen earlier in introduction SLR is known as the following,
-	- Simple linear regression is a statistical method that allows us to summarize and study relationships(trend) between two continuous (quantitative) variables.
-	- One variable, denoted **X**, is regarded as the **predictor**, **explanatory**, or **independent variable**.
-	- The other variable, denoted **y**, is regarded as the **response**, **outcome**, or **dependent variable**.
+	- Simple Linear Regression is a statistical method that allows us to summarize and study relationships(trend) between two continuous (quantitative) variables.
+	- One variable, denoted **X**, is regarded as the ***predictor***, ***explanatory***, or ***independent variable***.
+	- The other variable, denoted **y**, is regarded as the ***response***, ***outcome***, or ***dependent variable***.
 - SLR gets its adjective "simple," because it concerns the study of only one predictor variable.
 - A simple key difference between SLR and MLR, is MLR gets its adjective "multiple," because it concerns the study of  two or more predictor variables.
 
 
 ### 2.1 - Types of Relationships:
-- There are two types of relationships available one is  **deterministic (or functional) relationships** and second one is **statistical relationships**, simple linear regression will deals with second one.
+- There are two types of relationships available one is  ***deterministic (or functional) relationships*** and second one is ***statistical relationships***, simple linear regression will deals with ***statistical relationships***.
 	
 ###### 2.1.1 - Deterministic (or Functional) Relationships:
 - One of the simple example to define deterministic relationship is the relationship between Celsius and Fahrenheit.
@@ -31,7 +32,10 @@
 <p align="center">
   <img width="500" height="333" src="https://newonlinecourses.science.psu.edu/stat501/sites/onlinecourses.science.psu.edu.stat501/files/01simple/temps/index.jpg">
 </p>
-	
+
+<p align="center">
+	<b> Ref: https://newonlinecourses.science.psu.edu/stat501/sites/onlinecourses.science.psu.edu.stat501/files/01simple/temps/index.jpg </b>
+</p>
 
 - Not: that the observed (x, y) data points fall directly on a line. As you may remember, the relationship between degrees Fahrenheit and degrees Celsius is known to be:
 
@@ -42,7 +46,7 @@
 - If you know the temperature in degrees Celsius, you can use this equation to determine the temperature in degrees Fahrenheit exactly.
 - For each of these deterministic relationships, the equation exactly describes the relationship between the two variables.
 - Some other examples of deterministic relationships:    
-  - Circumference = π × diameter
+  - **Circumference** = π × diameter
   - **Hooke's Law:** Y = α + βX, where Y = amount of stretch in a spring, and X = applied weight.
   - **Ohm's Law:** I = V/r, where V = voltage applied, r = resistance, and I = current.
   - **Boyle's Law:** For a constant temperature, P = α/V, where P = pressure, α = constant for each gas, and V = volume of gas.
@@ -52,19 +56,23 @@
 - The below example illustrate the relationship between response variable y is the mortality due to skin cancer (number of deaths per 10 million people) and the predictor variable x is the latitude (degrees North) at the center of each of 49 states in the U.S. [(dataset.csv)](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/SkinCancer.csv)    
   <p align="center">
   	<img width="502" height="333" src="https://newonlinecourses.science.psu.edu/stat501/sites/onlinecourses.science.psu.edu.stat501/files/01simple/scatterplot_skin_cancer/index.png">
-  </p>
+  </p>   
+ <p align="center">
+	<b> Ref: https://newonlinecourses.science.psu.edu/stat501/sites/onlinecourses.science.psu.edu.stat501/files/01simple/scatterplot_skin_cancer/index.png </b>
+</p>   
+
 - The above plot appears to be a negative linear relationship between latitude and mortality due to skin cancer, but the relationship is not perfect.
-- Indeed, the plot exhibits some "trend," but it also exhibits some "scatter." Therefore, it is a statistical relationship, not a deterministic one.
+- Indeed, the plot exhibits some **trend**, but it also exhibits some **scatter**. Therefore, it is a statistical relationship, not a deterministic one.
 - Based on the above observation if you lived in the higher latitudes of the northern U.S., the less exposed you'd be to the harmful rays of the sun, and therefore, the less risk you'd have of death due to skin cancer.
 - Some other examples of statistical relationships might include:
-	- Relationship between **Height and weight**, we all knows for each person height increases, you'd expect weight to increase, but not perfectly.
-	- Relationship between **Speed and Mileage**, as driving speed increases, you'd expect gas mileage to decrease, but not perfectly.
+	- Relationship between ***Height and weight***, we all knows for each person height increases, you'd expect weight to increase, but not perfectly.
+	- Relationship between ***Speed and Mileage***, as driving speed increases, you'd expect gas mileage to decrease, but not perfectly.
 
 ### 3 - What is Best-Fitting Line ?
 - In Definition, Line of best fit refers to a line through a scatter plot of data points that best expresses the relationship between those points.
 - A straight line will result from a simple linear regression analysis of two or more independent variables.
 - Since we are interested in summarizing the trend between two quantitative variables, we have to Find the Best-Fitting line for our equation.
-- The Best-Fitting line must pass through the **Centroid**, (The point where the Mean of X and Mean of y meets each other)
+- The Best-Fitting line must pass through the ***Centroid***, (The point where the Mean of X and Mean of y meets each other)
 - Equation for Best-Fit Line (or) Simple Linear Regression equation:
 
 
@@ -163,3 +171,10 @@
   [To Understand Concepts Behind SLR - Site](https://newonlinecourses.science.psu.edu/stat501/node/250/)    
   [To Understand Concepts Behind SLR - Video](https://www.youtube.com/playlist?list=PLIeGtxpvyG-LoKUpV0fSY8BGKIMIdmfCi)    
   [Use-case Solution Reference](https://github.com/ManikandanJeyabal/Workplace/tree/master/DataScience/Regression/Simple%20Linear%20Regression/)
+
+##### See Also:
+- [Multiple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Multi%20Linear%20Regression#multi-linear-regression)
+- [Polynomial Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Polynomial%20Regression#polynomial-regression)
+- [SVR - Support Vector Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Support%20Vector%20Machine/ReadMe.md#svr---support-vector-regression)
+- [Decision Tree Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees#decision-tree-regression)
+- [Random Forest Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Random%20Forest%20Regression#random-forest-regression)

@@ -1,5 +1,6 @@
 # Data Pre-processing
-- Data pre-Processing is one of the important task in Machine/Deep Learning field.
+
+- Data Pre-Processing is one of the important task in Machine/Deep Learning field.
 - Pre-processing refers to the transformations applied to our data before feeding it to the algorithm.
 - Data Pre-processing is a technique that is used to convert the raw data into a clean data-set. In other words, whenever the data is gathered from different sources it is collected in raw format which is not feasible for the analysis.
 - To achieve a best result in the applied model in Machine Learning projects the format of the data has to be in a proper manner. 
@@ -7,7 +8,7 @@
 	- Random Forest algorithm does not support null values, therefore to execute random forest algorithm null values have to be managed from the original raw data set. 
 	- This is know as Missing data Handling in data Pre-processing.
 - Another aspect is that data set should be formatted in such a way that more than one Machine Learning and Deep Learning algorithms are executed in one data set, and best out of them is chosen.
-- In this part you will learn techniques available in data Pre-processing and how to get in handy with them. Data Pre-processing has the following stages:
+- In this part you will learn most commonly used techniques in data Pre-processing and how to get in handy with them. Data Pre-processing has the following stages:
 	1. [Handling Missing Data](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#1-handling-missing-data)
 	2. [Handling Categorical Data](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#2-handling-categorical-data)
 	3. [Splitting Data-Set into Dev/Training/Test set](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#3-spiting-your-data-set-into-devtrainingtest-set)
@@ -17,8 +18,8 @@
 - As all we know the term Missing data refers to the data actually not available in the expected field or available as Null or empty. if we are not addressing this issue with high priority your machine learning model will give poor prediction result.
 - So we need to be equipped to handle the problem when we come across them.
 - We can see multiple suggestions and ways in internet to address this problem, but one of the thumb rule in machine learning is Every record is important and we don't know some information belongs to that row may be an important key factor for our prediction.
-- So we are going to take one of the most common idea to handle the problem is to take a mean/Median/Most_Occured of all the values from the column and replace it with missing data.
-- **Imputer** is a class from Sci-kit Learn library.Pre-perocessing which is going to do the task, exactly it is going to do above step.
+- So we are going to take one of the most common idea to handle the problem is to take a Mean/Median/Most occurred of all the values from the column and replace it with missing data.
+- ***Imputer*** is a class from Sci-kit Learn library.Pre-perocessing which is going to do the task, exactly it is going to do above step.
 - It has the following input parameters
 	1. **missing_values:**
 		- It accepts valeus like integer, string, np.nan(default) or None. 
@@ -54,7 +55,7 @@ X[:, 1:3] = imputer.fit_transform(X[:, 1:3]) 	# will do above 2 steps in single 
 - Sometimes our data is in qualitative form, that is we have texts as our data.
 - Now it gets complicated for machines to understand texts and process them, rather than numbers, since the models are based on mathematical equations and calculations.
 - We cannot convert all the data from text form to numeric, expect some like categorical data. therefore we have to encode the categorical data, examples of categorical data we may expect in our data-set are Country, Department, Gender and any key which will place Group by Aggregation operation in your problem.
-- **LabelEncoder** and **OneHotEncoder** are a classes form Sci-kit Learn library, which is going to do the task, exactly it is going to do what we have mentioned in above step.
+- ***LabelEncoder*** and ***OneHotEncoder*** are a classes form Sci-kit Learn library, which is going to do the task, exactly it is going to do what we have mentioned in above step.
 
 #### 2.1 [LabelEncoder:](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html)
 - It is mainly used to convert Categorical variables into a sequence of numbers like 0, 1, 2, 3, 4, 5 and etc.. based on the upper limit.
@@ -74,8 +75,8 @@ X[:,0] = labelencoder_X.fit_transform(X[:,0]) 			# 0 represents the Encoding col
 - The transformation behind OneHotEncoder is very simple it follows the operation of Binary Transformation, hope you might remembered the relationship between integer to Binary format.
 - Here we are going to convert the values encoded using LabelEncoder to Binary form.
 - It has an important parameter called categorical_features to accomplish the task.
-- by running the below code in our data-set, it will select the first column to OneHotEncode the categories.
-- then simply calling fit_transform method will do the remain for us.
+- By running the below code in our data-set, it will select the first column to OneHotEncode the categories.
+- Then simply calling fit_transform method will do the remain for us.
 ```py
 onehotencoder = OneHotEncoder(categorical_features =[0]) 	# Applying OneHotEncoding to index 0
 X = onehotencoder.fit_transform(X).toarray() 			# loading the converted values to variable X.
@@ -88,13 +89,14 @@ X = onehotencoder.fit_transform(X).toarray() 			# loading the converted values t
 - Usually in internet you can find only Training/Test set separation only, you can follow any method. for your understanding we are going to use only Training/Test separation only.
 - We will train our machine learning models on our training set, i.e our machine learning models will try to understand any correlations in our training set and then we will test the models on our test set to check how accurately it can predict.
 - A general rule of the thumb is to allocate **80% of the data-set to training set and the remaining 20% to test set**.
-- **test_train_split** is a class of sklearn.model_selection library, which is going to do the task.
+- ***test_train_split*** is a class of sklearn.model_selection library, which is going to do the task.
 ```py
 from sklearn.model_selection import train_test_split 			# module import: importing the file train_test_split from sklearn.proprocessing 
 X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size=0.2) # Creating 4 variable for training set and test set.
 ```
 - The above code will split out data-set into training and test set based on 80/20 ratio. and will assign the data into 4 new variables called X_train, X_test, Y_train, Y_test.
 - For our understanding we are using the name as X_train, X_test, Y_train, Y_test. you can keep any name based on your understanding.
+- Train-test spliter has more input variables, please refer sklearn documentation page for more info.
 
 ### 4. Feature Scaling
 - The final step of data Pre-processing is to apply the very important feature scaling.
@@ -141,12 +143,12 @@ X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size=0.2) # Creati
   				<img width="178" height="94" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/2-Data%20Pre-Processing/Reference/Unit%20Vector.JPG?raw=true">
 			</p>
 - Some examples of algorithms where feature scaling matters are:
-	- **k-nearest neighbors** with an Euclidean distance measure is sensitive to magnitudes and hence should be scaled for all features to weigh in equally.
-	- **Principal Component Analysis (PCA)** tries to get the features with maximum variance and the variance is high for high magnitude features. This skews the PCA towards high magnitude features.
+	- ***k-nearest neighbors*** with an Euclidean distance measure is sensitive to magnitudes and hence should be scaled for all features to weigh in equally.
+	- ***Principal Component Analysis (PCA)*** tries to get the features with maximum variance and the variance is high for high magnitude features. This skews the PCA towards high magnitude features.
 	- We can speed up gradient descent by scaling. This is because θ will descend quickly on small ranges and slowly on large ranges, and so will oscillate inefficiently down to the optimum when the variables are very uneven.
 	- Algorithms like Linear Discriminant Analysis(LDA), Naive Bayes are by design equipped to handle this and gives weights to the features accordingly. 
-- We are going to take Standardisation for our feature scaling task.
-- **[StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)** is a class of sklearn.preprocessing library, which is going to do the task.
+- We are going to take Standardization for our feature scaling task.
+- ***[StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)*** is a class of sklearn.preprocessing library, which is going to do the task.
 ```py
 from sklearn.preprocessing import StandardScaler 	# module import: importing the file StandardScaler from sklearn.proprocessing  								# Creating Object of the class to perform our task
 sc_X = StandardScaler()

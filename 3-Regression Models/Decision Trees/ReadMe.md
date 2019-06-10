@@ -111,3 +111,10 @@
 	- Allows the tree to perfectly classify the training set, and then post prune the tree.
 	- Practically This approach gives us better result compare to Pre-Pruning, because it is not easy to precisely estimate when to stop growing the tree. 
 - To See More about Pruning, Please visit click the link. [How to Handle Overfitting in D-Trees](http://www.saedsayad.com/decision_tree_overfitting.htm)
+
+##### See Also
+- [Simple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Simple%20Linear%20Regression#simple-linear-regression)
+- [Multiple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Multi%20Linear%20Regression#multi-linear-regression)
+- [Polynomial Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Polynomial%20Regression#polynomial-regression)
+- [SVR - Support Vector Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Support%20Vector%20Machine/ReadMe.md#svr---support-vector-regression)
+- [Random Forest Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Random%20Forest%20Regression#random-forest-regression)

@@ -1,5 +1,5 @@
 # 1.About the Course:
-- Hi, a warm Welcome to you. If you are one of the person who is trying to explore more detail in Machine Learning like others, but don't know where/how to start ? Hooray, you are in the right place at right time.
+- Hi, a warm Welcome to you. If you are one of the person who is trying to explore more detail in Machine Learning like others, but don't know where/how to start ? don't worry, you are in the right place at right time.
 - The course has been designed by a Professional Machine Learning Engineer, who is trying to create more opportunists in Machine Learning by sharing his knowledge and helping you to solve complex Algorithms in simple way.
 - I am going to take you step by step to the world of Machine Learning, With every tutorial in this course you will develop new skills and improve your understanding in Machine Learning.
 - Moreover, the course is packed with practical exercises which are based on real-life examples. So you will learn the theory and also get some hands-on practice by building your own models and use-cases.
@@ -15,9 +15,8 @@
 		3. [Polynomial Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Polynomial%20Regression#polynomial-regression)
 		4. [SVR - Support Vector Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Support%20Vector%20Machine/ReadMe.md#svr---support-vector-regression)
 		5. [Decision Tree Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees#decision-tree-regression)
-			1. [SDR](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees/ReadMe-SDR.md#standard-deviation-reduction)
+			1. [ID3](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees/ReadMe-SDR.md#standard-deviation-reduction)
 		6. [Random Forest Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Random%20Forest%20Regression#random-forest-regression)
-		7. Evaluating Model Performance
 	3. Classification 
 		 1. Logistic Regression
 		 2. K-NN
@@ -64,18 +63,18 @@
 - Make robust Machine Learning models.
 - Handle specific topics like Reinforcement Learning, NLP and Deep Learning and Handle advanced techniques like Dimensionality Reduction
 # 4.What is Machine Learning:
-- **Machine learning** is a method of data analysis that automates analytical model building. 
+- ***Machine learning*** is a method of data analysis that automates analytical model building. 
 - It is a branch of artificial intelligence based on the idea that systems can learn from data, find patterns and make decisions with minimal human intervention. 
 - While artificial intelligence (AI) is the broad science of mimicking human abilities, machine learning is a specific subset of AI that trains a machine how to learn.
 - The processes involved in machine learning are similar to data mining and predictive modeling. Both require searching through data to look for patterns and adjusting program actions accordingly.
 - Many people are familiar with machine learning from shopping on the internet and being served ads related to their purchase. This happens because recommendation engines use machine learning to personalize online ad delivery in almost real-time.
-- Machine learning algorithms are often categorized as **Supervised** or **Unsupervised** or **Semi-Supervised** Learning.
+- Machine learning algorithms are often categorized as ***Supervised*** or ***Unsupervised*** or ***Semi-Supervised*** Learning.
 
 #### 4.1 Supervised Learning:
 - Supervised algorithms require a data scientist or data analyst with machine learning skills to provide both input and desired output, in addition to furnishing feedback about the accuracy of predictions during algorithm training.
 - Data scientists determine which variables, or features, the model should analyze and use to develop predictions.
 - Once training is complete, the algorithm will apply what was learned to new data.
-- In simple terms Supervised Learning is know as "Supervised learning is so named because the data scientist acts as a guide to teach the algorithm what conclusions it should come up with". and it is the more commonly used between the three.
+- Supervised learning is so named because the data scientist acts as a guide to teach the algorithm what conclusions it should come up with. and it is the more commonly used between the three.
 - It includes such algorithms as linear and logistic regression, multi-class classification, and support vector machines and etc... **For Example:** A child might learn arithmetic from a teacher
 - Supervised learning requires that the algorithm’s possible outputs are already known and that the data used to train the algorithm is already labeled with correct answers.
 - **For Example:** Classification algorithm will learn to identify animals after being trained on a dataset of images that are properly labeled with the species of the animal and some identifying characteristics
@@ -89,7 +88,7 @@
 
 #### 4.3 Which algorithm to choose for my problem:
 - Choosing to use either a supervised or unsupervised machine learning algorithm typically depends on factors related to the structure and volume of your data and the use case of the issue at hand.
-- A well-rounded data science program will use both types of algorithms to build predictive data models that help stakeholders make decisions across a variety of business challenges.
+- A well-rounded data science program will use both types of algorithms(Known as ***Ensemble Learning***) to build predictive data models that help stakeholders make decisions across a variety of business challenges.
 
 #### 4.4 Semi-Supervised Learning:
 - Semi-supervised learning is a class of machine learning tasks and techniques that also make use of unlabeled data for training – typically a small amount of labeled data with a large amount of unlabeled data.
@@ -129,8 +128,8 @@
 	- The number of machine learning use cases for this industry is vast – and still expanding.
     
 #### 4.7 Did you know ?
-- In machine learning, a target is called a label. where in statistics, a target is called a dependent variable.
-- A variable in statistics is called a feature in machine learning.
+- In machine learning, a target Variable is called a label. where in statistics, it is called known as dependent variable.
+- A Independent variable in statistics is called a Input feature in machine learning.
 - A transformation in statistics is called feature creation in machine learning.
 
 # 5.Installing Anaconda and Python in your Machine:
@@ -178,7 +177,7 @@
   <img width="1363" height="599" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/1-Introduction/References/Anaconda%20Dashboard.JPG?raw=true">
 </p>
 
-- Once you open the IDE, it is always recommeded to move to your project directory. to navigate to the project folder use the File Explorer as follows, and create your py file by clicking New file creator icon and set it as your currnet working directory, if you want to shitch Drive use URL navigator in top right corner of the IDE.
+- Once you open the IDE, it is always recommended to move to your project directory. to navigate to the project folder use the File Explorer as follows, and create your py file by clicking New file creator icon and set it as your current working directory, if you want to switch Drive use URL navigator in top right corner of the IDE.
 
 <p align="center">
   <img width="1025" height="393" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/1-Introduction/References/Spyder%20IDE%20Overview.JPG?raw=true">
