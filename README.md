@@ -14,7 +14,7 @@ Machine Learning 101 is a central repository intended to give detailed informati
 	2. [Handling Categorical Data](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#2-handling-categorical-data)
 	3. [Splitting Data-Set into Dev/Training/Test set](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#3-spiting-your-data-set-into-devtrainingtest-set)
 	4. [Feature Scaling](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#4-feature-scaling)    
-3. [Regression Models](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models#regression-models)
+3. [Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models#regression-models)
 	1. [Simple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Simple%20Linear%20Regression#simple-linear-regression)
 	2. [Multiple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Multi%20Linear%20Regression#multi-linear-regression)
 	3. [Polynomial Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Polynomial%20Regression#polynomial-regression)
