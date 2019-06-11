@@ -9,7 +9,7 @@
 		2. [Handling Categorical Data](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#2-handling-categorical-data)
 		3. [Splitting Data-Set into Dev/Training/Test set](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#3-spiting-your-data-set-into-devtrainingtest-set)
 		4. [Feature Scaling](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#4-feature-scaling)    
-	2. [Regression Models](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models#regression-models)
+	2. [Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models#regression-models)
 		1. [Simple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Simple%20Linear%20Regression#simple-linear-regression)
 		2. [Multiple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Multi%20Linear%20Regression#multi-linear-regression)
 		3. [Polynomial Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Polynomial%20Regression#polynomial-regression)
@@ -17,7 +17,7 @@
 		5. [Decision Tree Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees#decision-tree-regression)
 			1. [ID3](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees/ReadMe-SDR.md#standard-deviation-reduction)
 		6. [Random Forest Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Random%20Forest%20Regression#random-forest-regression)
-	3. Classification 
+	3. [Classification](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/CM_LGR/4-Classification%20Models#classification-models) 
 		 1. Logistic Regression
 		 2. K-NN
 		 3. [SVM - Support Vector Machine](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/SVM#support-vector-machine)
