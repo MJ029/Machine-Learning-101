@@ -14,6 +14,8 @@
   - **real-value:** continues measurement of preasure in Steam engine. 
   - **integer-value:** No.of occurance of a word in given paragraph. 
   - **ordinal:** small, medium and large. 
+- Classes are sometimes refered as targets or labels or categories.
+- A smiple example of classification problem spam detection in email, which is a binary classification since there are only 2 classes as **spam** and **not spam**.
 
 ### 2. Why Classification Models ?
 - As we know from the above definition of classification models, **The main goal of a classification problem is to identify the category/class to which a new data will fall under**.
