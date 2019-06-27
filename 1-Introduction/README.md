@@ -18,7 +18,7 @@
 			1. [ID3](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees/ReadMe-SDR.md#standard-deviation-reduction)
 		6. [Random Forest Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Random%20Forest%20Regression#random-forest-regression)
 	3. [Classification](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/CM_LGR/4-Classification%20Models#classification-models) 
-		 1. Logistic Regression
+		 1. [Logistic Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/4-Classification%20Models/Logistic%20Regression/ReadMe.md#logistic-regression)
 		 2. K-NN
 		 3. [SVM - Support Vector Machine](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/SVM#support-vector-machine)
 		 4. Naive Bayes
