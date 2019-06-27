@@ -25,10 +25,10 @@
 - Make yourself familier with the below list of names, because we are going to use them frequently in our course.
   - [Logistic Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/4-Classification%20Models/Logistic%20Regression/ReadMe.md#logistic-regression)
   - K-NN
-  - SVM - Support Vector Machine
+  - [SVM - Support Vector Machine](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/CM_LGR/4-Classification%20Models/SVM#support-vector-machine)
   - Naive Bayes
-  - Decision Trees
-    - ID3
-    - C4.5 or J4.8
-    - CART
-  - Random Forest Classification
+  - [Decision Trees](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/CM_LGR/4-Classification%20Models/Decision%20Trees#decision-tree-classification)
+    - [ID3](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/4-Classification%20Models/Decision%20Trees/ReadMe-ID3.md#id3---iterative-dichotomizer-3)
+    - [C4.5 or J4.8](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/4-Classification%20Models/Decision%20Trees/ReadMe-C45.md#c-45-improved-version-of-id3)
+    - [CART](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/4-Classification%20Models/Decision%20Trees/ReadMe-CART.md#cart---classification-and-regression-tree)
+  - [Random Forest Classification](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/CM_LGR/4-Classification%20Models/Random%20Forest#random-forest-classification)
