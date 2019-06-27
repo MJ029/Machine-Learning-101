@@ -23,7 +23,7 @@
 ### 3. Types of Classification Models
 - There are several types of Classification models used in Machine Learning which falls under supervised learning, but we are going to see the below list of algorithms and its usecases widely in up-comming sessions. 
 - Make yourself familier with the below list of names, because we are going to use them frequently in our course.
-  - Logistic Regression
+  - [Logistic Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/4-Classification%20Models/Logistic%20Regression/ReadMe.md#logistic-regression)
   - K-NN
   - SVM - Support Vector Machine
   - Naive Bayes
