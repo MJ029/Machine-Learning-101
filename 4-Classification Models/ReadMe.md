@@ -19,6 +19,8 @@
 
 ### 2. Why Classification Models ?
 - As we know from the above definition of classification models, **The main goal of a classification problem is to identify the category/class to which a new data will fall under**.
+- Classification Models are an essential part of Machine Learning and data mining applications. 
+- Approximately 70% of real world problems in Data Science are classification problems.
 
 ### 3. Types of Classification Models
 - There are several types of Classification models used in Machine Learning which falls under supervised learning, but we are going to see the below list of algorithms and its usecases widely in up-comming sessions. 
