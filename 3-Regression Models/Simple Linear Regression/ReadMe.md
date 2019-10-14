@@ -30,7 +30,7 @@
 - In deterministic relationships, the equation exactly describes the relationship between the two variables.
 
 <p align="center">
-  <img width="500" height="333" src="https://newonlinecourses.science.psu.edu/stat501/sites/onlinecourses.science.psu.edu.stat501/files/01simple/temps/index.jpg">
+  <img width="500" height="333" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/3-Regression%20Models/Simple%20Linear%20Regression/References/Deterministic%20Relationship.jpg?raw=true">
 </p>
 
 <p align="center">
@@ -55,7 +55,7 @@
 - In statistical relationship, the relationship between the variables is not perfect.
 - The below example illustrate the relationship between response variable y is the mortality due to skin cancer (number of deaths per 10 million people) and the predictor variable x is the latitude (degrees North) at the center of each of 49 states in the U.S. [(dataset.csv)](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Simple%20Linear%20Regression/Dataset/SkinCancer.csv)    
   <p align="center">
-  	<img width="502" height="333" src="https://newonlinecourses.science.psu.edu/stat501/sites/onlinecourses.science.psu.edu.stat501/files/01simple/scatterplot_skin_cancer/index.png">
+  	<img width="502" height="333" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/3-Regression%20Models/Simple%20Linear%20Regression/References/Statistical%20Relationships.JPG?raw=true">
   </p>   
  <p align="center">
 	<b> Ref: https://newonlinecourses.science.psu.edu/stat501/sites/onlinecourses.science.psu.edu.stat501/files/01simple/scatterplot_skin_cancer/index.png </b>
@@ -133,8 +133,8 @@
  
 ### 4 - Determination of r-square(Accuracy):
 - Now we got the information need to calculate the Accuracy of our model.
-- <b>SSR</b> is the "regression sum of squares" and quantifies how far the estimated sloped regression line, <b>y&#770;<sub>i</sub></b>, is from the horizontal "no relationship line," the sample mean or <b>y&#772;</b>.
-- <b>SSE</b> is the "error sum of squares" and quantifies how much the data points y<sub>i</sub>, vary around the estimated regression line, y&#770;<sub>i</sub>
+- <b>SSR (known as Sum of Squared Residuals)</b> is the "regression sum of squares" and quantifies how far the estimated sloped regression line, <b>y&#770;<sub>i</sub></b>, is from the horizontal "no relationship line," the sample mean or <b>y&#772;</b>.
+- <b>SSE (known as Sum of Squared Error)</b> is the "error sum of squares" and quantifies how much the data points y<sub>i</sub>, vary around the estimated regression line, y&#770;<sub>i</sub>
 - <b>SST</b> is the "total sum of squares" and quantifies how much the data points, y<sub>i</sub> vary around their mean, <b>y&#772;</b>
 - Note:
 	- <b>SSR => (y&#770;<sub>i</sub> - <b>y&#772;</b>)<sup>2</sup> => 89.925</b>
