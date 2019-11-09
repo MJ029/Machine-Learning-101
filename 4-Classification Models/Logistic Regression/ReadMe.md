@@ -21,15 +21,10 @@
 ##### 2.1 Assumption:
 - The thumb rule of logistic regression in simple as mentioned in 2 steps:
 - Step-1:
-	- Take a Linear equation, Here linear equation is nothing but your linear model as below.  
-	<<HOLDER: Equation Fig to explain the model>>
+	- Take a Linear equation, Here linear equation is nothing but your linear model.  
 - Step-2:  
 	- Find the probability of occurrence of the linear equation for the given data-point.  
 	- To find the probability of the equation we need to apply sigmoid function on the Linear Equation.    
-	<<HOLDER: Equation Fig to explaing the Sigmoid function>>    
-- Output:
-	- The prediction Outcome will fall like this.  
-	<<HOLDER: Fig to explaing how Linear Equation converges to Logistic Equation>>
 
 ##### 2.1 Sigmoid Function[logistic function]:
 - It gives an ‘S’ shaped curve that can take any real-valued number and map it into a value between 0 and 1. 
@@ -67,11 +62,11 @@
 	- It doesn't require any stochastic assumptions for minimizing distance.
 
 ##### 2.4 Types of Logistic Regression:
-- Binary Logistic Regression: 
+- Binary Logistic Regression:   
 	- Target variable is binary.
 	- Ex:
-		Spam or Not Spam
-		Cancer or No Cancer
+		Spam or Not Spam   
+		Cancer or No Cancer   
 		Male or Female
 - Multinomial Logistic Regression:
 	- The target variable has three or more nominal categories[without ordering]
@@ -83,4 +78,10 @@
 	- Ex:
 		find Rating from 1-5.
 
-#### 3. Logistic Regression Step-By-Step:
+#### 3. Logistic Regression Equation:
+- We all saw the thumb-rule of logistic regression in Assumptions, we can state as below.
+- **The Natural logarithm of the odds ratio is equivalent to a linear function of the independent variables**. This statement gives below equation.
+	<< Fig 1>>
+- Taking anti-log on both the side will allow us to find the estimated regression equation.
+	<< Fig 2-3>>
+- By applying the above equation for each independent variable in your data set you will get the predicted variable 
