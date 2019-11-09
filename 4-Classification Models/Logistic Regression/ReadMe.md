@@ -17,8 +17,8 @@
 - One of the important point to remember here is a special case of linear regression where the target variable is categorical in nature.
 - Logistic Regression using logit function to predicts the probability of occurrence of a binary event[target variable].
 
-#### 2. Logistic Regression Intuition:
-##### 2.1 Assumption:
+### 2. Logistic Regression Intuition:
+#### 2.1 Assumption:
 - The thumb rule of logistic regression in simple as mentioned in 2 steps:
 - Step-1:
 	- Take a Linear equation, Here linear equation is nothing but your linear model.  
@@ -26,7 +26,7 @@
 	- Find the probability of occurrence of the linear equation for the given data-point.  
 	- To find the probability of the equation we need to apply sigmoid function on the Linear Equation.    
 
-##### 2.1 Sigmoid Function[logistic function]:
+#### 2.1 Sigmoid Function[logistic function]:
 - It gives an ‘S’ shaped curve that can take any real-valued number and map it into a value between 0 and 1. 
 - y = 1, If curve goes to positive infinity.
 - y = 0, If curve goes to negative infinity.
@@ -34,7 +34,7 @@
 - If output of sigmoid function < 0.5, then we can classify the outcome as 0 or NO.
 
 
-##### 2.2 Diff between Logistic Regression and Linear regression:
+#### 2.2 Diff between Logistic Regression and Linear regression:
 - Linear Regression:
 	- Output is interval/continuous[Linear in nature].
 	- Examples are house price and truck mileage prediction.
@@ -49,7 +49,7 @@
 	- It does not violates definition of probability.
 	- Probabilities are often not linear.
 
-##### 2.3 Estimation:
+#### 2.3 Estimation:
 - The dependent variable in logistic regression follows Bernoulli Distribution and estimation is done through Maximum Likelihood.
 - since we are using Maximum Likelihood, there is no concept of R Square, Model fitness is calculated through Concordance, KS-Statistics and etc...
 - Maximum Likelihood Estimation[MLE]:
@@ -61,7 +61,7 @@
 	- In [OLE - Ordinary Least Squares], estimates are computed by fitting a regression line on given data points that has the minimum sum of the squared deviations (least square error). 
 	- It doesn't require any stochastic assumptions for minimizing distance.
 
-##### 2.4 Types of Logistic Regression:
+#### 2.4 Types of Logistic Regression:
 - Binary Logistic Regression:   
 	- Target variable is binary.
 	- Ex:  
@@ -78,7 +78,7 @@
 	- Ex:  
 		find Rating from 1-5.
 
-#### 3. Logistic Regression Equation:
+### 3. Logistic Regression Equation:
 - We all saw the thumb-rule of logistic regression in Assumptions, we can state as below.
 - **The Natural logarithm of the odds ratio is equivalent to a linear function of the independent variables**. This statement gives below equation.
 
