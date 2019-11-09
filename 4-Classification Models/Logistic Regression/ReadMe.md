@@ -81,7 +81,22 @@
 #### 3. Logistic Regression Equation:
 - We all saw the thumb-rule of logistic regression in Assumptions, we can state as below.
 - **The Natural logarithm of the odds ratio is equivalent to a linear function of the independent variables**. This statement gives below equation.
-	<< Fig 1>>
+
+<p align="center">
+  <img width="473" height="117" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/4-Classification%20Models/Logistic%20Regression/references/Fig-1.JPG?raw=true">
+</p> 
+
+
 - Taking anti-log on both the side will allow us to find the estimated regression equation.
-	<< Fig 2-3>>
+
+<p align="center">
+  <img width="432" height="532" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/4-Classification%20Models/Logistic%20Regression/references/Fig-1.JPG?raw=true">
+</p> 
+
+<p align="center">
+  <img width="315" height="165" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/4-Classification%20Models/Logistic%20Regression/references/Fig-3.JPG?raw=true">
+</p> 
+
 - By applying the above equation for each independent variable in your data set you will get the predicted variable 
+
+
