@@ -64,18 +64,18 @@
 ##### 2.4 Types of Logistic Regression:
 - Binary Logistic Regression:   
 	- Target variable is binary.
-	- Ex:
+	- Ex:  
 		Spam or Not Spam   
 		Cancer or No Cancer   
 		Male or Female
 - Multinomial Logistic Regression:
 	- The target variable has three or more nominal categories[without ordering]
-	- Ex:
+	- Ex:  
 		Predicting the blood types.
 
 - Ordinal Logistic Regression:
 	- The target variable has three or more ordinal categories[with ordering]
-	- Ex:
+	- Ex:  
 		find Rating from 1-5.
 
 #### 3. Logistic Regression Equation:
