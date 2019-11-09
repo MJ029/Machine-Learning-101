@@ -90,7 +90,7 @@
 - Taking anti-log on both the side will allow us to find the estimated regression equation.
 
 <p align="center">
-  <img width="432" height="532" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/4-Classification%20Models/Logistic%20Regression/references/Fig-1.JPG?raw=true">
+  <img width="432" height="532" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/4-Classification%20Models/Logistic%20Regression/references/Fig-2.JPG?raw=true">
 </p> 
 
 <p align="center">
