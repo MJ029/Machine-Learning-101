@@ -99,4 +99,18 @@
 
 - By applying the above equation for each independent variable in your data set you will get the predicted variable 
 
+### 4. Logistic Regression in Python:
+- [How to write your first Logistic Regression model using python]()
+- If you completed the above step, Congrats you have created your **Logistic Regression** machine learning model using Python.
 
+### 5. Additional Use-cases:
+
+##### Reference URL:
+[Use case reference]()
+
+##### See Also
+- [K-NN]()
+- [SVM - Support Vector Machine](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/SVM#support-vector-machine)
+- [Naive Bayes]()
+- [D-Tress](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/Decision%20Trees#decision-tree-classification)
+- [Random Forest](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/Random%20Forest#random-forest-classification)
