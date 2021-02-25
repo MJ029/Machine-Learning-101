@@ -5,7 +5,7 @@
 - Data Pre-processing is a technique that is used to convert the raw data into a clean data-set. In other words, whenever the data is gathered from different sources it is collected in raw format which is not feasible for the analysis.
 - To achieve a best result in the applied model in Machine Learning projects the format of the data has to be in a proper manner. 
 - For Example:
-	- Random Forest algorithm does not support null values, therefore to execute random forest algorithm null values have to be managed from the original raw data set. 
+	- ***Random Forest*** algorithm **does not support null** values, therefore to execute random forest algorithm null values have to be managed from the original raw data set. 
 	- This is know as Missing data Handling in data Pre-processing.
 - Another aspect is that data set should be formatted in such a way that more than one Machine Learning and Deep Learning algorithms are executed in one data set, and best out of them is chosen.
 - In this part you will learn most commonly used techniques in data Pre-processing and how to get in handy with them. Data Pre-processing has the following stages:

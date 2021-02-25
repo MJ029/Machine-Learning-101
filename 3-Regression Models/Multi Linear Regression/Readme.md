@@ -22,25 +22,25 @@
   <img width="901" height="468" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Multi%20Linear%20Regression/References/SLR-MLR-Diff.JPG">
 </p>    
 
-- Lets see the concept of MLR using the following example [[Dataset.csv]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Multi%20Linear%20Regression/Datasets/Logistics.csv). In the dataset we have 3 IV's {Miles Traveled(<b>X<sub>1</sub></b>), NoOfDeliveries(<b>X<sub>2</sub></b>) and GasPrice(<b>X<sub>3</sub></b>) and City[Base Location of truck] (<b>X<sub>4</sub></b>)} and one DV {TravelTime(<b>Y</b>)}. Before jumping to usecase i would like to give you heads up on the below 2 topics
+- Lets see the concept of MLR using the following example [[Dataset.csv]](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Multi%20Linear%20Regression/Datasets/Logistics.csv). In the dataset we have 4 IV's {Miles Traveled(<b>X<sub>1</sub></b>), NoOfDeliveries(<b>X<sub>2</sub></b>) and GasPrice(<b>X<sub>3</sub></b>) and City[Base Location of truck] (<b>X<sub>4</sub></b>)} and one DV {TravelTime(<b>Y</b>)}. Before jumping to use-case i would like to give you heads up on the below 2 topics
 	- [Dummy Variables](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Multi%20Linear%20Regression#2-dummy-variables)
 	- [Model selection for MLR](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Multi%20Linear%20Regression#3-model-selection-for-mlr)
 
 ### 2 Dummy Variables:   
 - Lets assume that one of our independent variable has a [categorical data](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#2-handling-categorical-data). 
-- All machine learning models will process only with numerical data and formulas so we need to encode this catagorical data's to binary format, but when encoding categorical data to binary format there is a chance our model will fall due to a well known problem called ***Dummy variable trap***. So we need to address this issue in data-preprocessing phase.
+- We all know that Most of the Machine Learning models plays with Numerical data, categorical data plays a major role when it comes to model processing it is one of the useful feature for our model. So we need to encode this categorical data to binary format, but when encoding categorical data to binary format there is a chance our model will fall due to a well known problem called ***Dummy variable trap***. We need to address this issue in data-preprocessing phase.
 
 #### 2.1 What is Dummy variable:   
 - Basically encoding categorical Variable to binary form are known as Dummy variable.
-- Suppose you have state column in your data-set with 3 state values as follows "**California**, **New-York** and **los angeles**".
+- Suppose you have state column in your data-set with 3 state values as follows "**California**, **New-York** and **los angeles**" we need to encode this values to proper numerical value before processing our model.
 - If you see the below image will show you how label encoder encoded categorical data into numerical data.
 
 <p align="center">
   <img width="801" height="275" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Multi%20Linear%20Regression/References/S1.JPG?raw=true">
 </p>   
 
-- When you encode this you will get 3 columns represents each state.    
-- The below image shows how OneHotEncoder encodes categorical data into binary form. if you see the below image you can clearly identify without having any one of the encoded column we can derive our model.
+- When you encode the categorical columns it will create one column for each unique value in Categorical column, ie: Unique(NoOfValues) = NoOfNewColumns   
+- The below image shows how OneHotEncoder encodes categorical data into binary form. If you see the below image you can clearly identify among 3 encoded columns without having any one of the encoded column we can derive our model.
 <p align="center">
   <img width="838" height="286" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/3-Regression%20Models/Multi%20Linear%20Regression/References/S2.JPG?raw=true">
 </p>       

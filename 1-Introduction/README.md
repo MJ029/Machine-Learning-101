@@ -9,7 +9,7 @@
 		2. [Handling Categorical Data](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#2-handling-categorical-data)
 		3. [Splitting Data-Set into Dev/Training/Test set](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#3-spiting-your-data-set-into-devtrainingtest-set)
 		4. [Feature Scaling](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/2-Data%20Pre-Processing#4-feature-scaling)    
-	2. [Regression Models](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models#regression-models)
+	2. [Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models#regression-models)
 		1. [Simple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Simple%20Linear%20Regression#simple-linear-regression)
 		2. [Multiple Linear Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Multi%20Linear%20Regression#multi-linear-regression)
 		3. [Polynomial Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Polynomial%20Regression#polynomial-regression)
@@ -17,8 +17,8 @@
 		5. [Decision Tree Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees#decision-tree-regression)
 			1. [ID3](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Decision%20Trees/ReadMe-SDR.md#standard-deviation-reduction)
 		6. [Random Forest Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/3-Regression%20Models/Random%20Forest%20Regression#random-forest-regression)
-	3. Classification 
-		 1. Logistic Regression
+	3. [Classification](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/CM_LGR/4-Classification%20Models#classification-models) 
+		 1. [Logistic Regression](https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/4-Classification%20Models/Logistic%20Regression/ReadMe.md#logistic-regression)
 		 2. K-NN
 		 3. [SVM - Support Vector Machine](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/SVM#support-vector-machine)
 		 4. Naive Bayes
@@ -64,27 +64,27 @@
 - Handle specific topics like Reinforcement Learning, NLP and Deep Learning and Handle advanced techniques like Dimensionality Reduction
 # 4.What is Machine Learning:
 - ***Machine learning*** is a method of data analysis that automates analytical model building. 
-- It is a branch of artificial intelligence based on the idea that systems can learn from data, find patterns and make decisions with minimal human intervention. 
-- While artificial intelligence (AI) is the broad science of mimicking human abilities, machine learning is a specific subset of AI that trains a machine how to learn.
-- The processes involved in machine learning are similar to data mining and predictive modeling. Both require searching through data to look for patterns and adjusting program actions accordingly.
+- It is a branch of artificial intelligence based on the idea that systems can **learn from data**, **find patterns** and **make decisions** with minimal human intervention. 
+- While artificial intelligence (AI) is the broad science of mimicking human abilities, machine learning is a specific **subset of AI** that trains a machine how to learn.
+- The processes involved in machine learning are similar to **data mining** and **predictive modeling**. Both require searching through data to look for patterns and adjusting program actions accordingly.
 - Many people are familiar with machine learning from shopping on the internet and being served ads related to their purchase. This happens because recommendation engines use machine learning to personalize online ad delivery in almost real-time.
 - Machine learning algorithms are often categorized as ***Supervised*** or ***Unsupervised*** or ***Semi-Supervised*** Learning.
 
 #### 4.1 Supervised Learning:
-- Supervised algorithms require a data scientist or data analyst with machine learning skills to provide both input and desired output, in addition to furnishing feedback about the accuracy of predictions during algorithm training.
+- Supervised algorithms require a ***data scientist*** or ***data analyst*** with machine learning skills to provide both input and desired output, in addition to furnishing feedback about the accuracy of predictions during algorithm training.
 - Data scientists determine which variables, or features, the model should analyze and use to develop predictions.
 - Once training is complete, the algorithm will apply what was learned to new data.
 - Supervised learning is so named because the data scientist acts as a guide to teach the algorithm what conclusions it should come up with. and it is the more commonly used between the three.
-- It includes such algorithms as linear and logistic regression, multi-class classification, and support vector machines and etc... **For Example:** A child might learn arithmetic from a teacher
-- Supervised learning requires that the algorithm’s possible outputs are already known and that the data used to train the algorithm is already labeled with correct answers.
+- It includes such algorithms as **linear** and **logistic regression**, **multi-class classification**, and **support vector machines** and etc.
+- Supervised learning requires that the algorithm’s possible **outputs are already known** and that the data used to train the algorithm is already labeled with correct answers.
 - **For Example:** Classification algorithm will learn to identify animals after being trained on a dataset of images that are properly labeled with the species of the animal and some identifying characteristics
 
 #### 4.2 Unsupervised Learning:
-- Unsupervised algorithms do not need to be trained with desired outcome data. Instead, they use an iterative approach called deep learning to review data and arrive at conclusions. 
-- Unsupervised learning algorithms also uses an area called neural networks, they used for more complex processing tasks than supervised learning systems, including image recognition, speech-to-text and natural language generation.
+- Unsupervised algorithms **do not need** to be trained with desired outcome data. Instead, they use an iterative approach called **deep learning** to review data and arrive at conclusions. 
+- Unsupervised learning algorithms also uses an area called **neural networks**, they used for more complex processing tasks than supervised learning systems, including image recognition, speech-to-text and natural language generation.
 - These neural networks work by combing through millions of examples of training data and automatically identifying often subtle correlations between many variables. Once trained, the algorithm can use its bank of associations to interpret new data.
 - These algorithms have only become feasible in the age of big data, as they require massive amounts of training data.
-- Some examples of unsupervised machine learning algorithms include k-means clustering, principal and independent component analysis, and association rules.
+- Some examples of unsupervised machine learning algorithms include **k-means clustering**, **principal and independent component analysis**, and *8association rules**.
 
 #### 4.3 Which algorithm to choose for my problem:
 - Choosing to use either a supervised or unsupervised machine learning algorithm typically depends on factors related to the structure and volume of your data and the use case of the issue at hand.
