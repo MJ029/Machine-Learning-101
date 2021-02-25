@@ -33,22 +33,22 @@ Machine Learning 101 is a central repository intended to give detailed informati
 		 3. [CART](4-Classification%20Models/Decision%20Trees/ReadMe-CART.md#cart---classification-and-regression-tree)
 	 6. [Random Forest Classification](4-Classification%20Models/Random%20Forest#random-forest-classification)
 5. Clustering
-	 7. K-Means
-	 8. Hierarchical Clustering
+	 1. K-Means
+	 2. Hierarchical Clustering
 6. Association Rule Learning 
-	 9. Apriori Rule
-	 10. Eclat Rule
+	 1. Apriori Rule
+	 2. Eclat Rule
 7. Reinforcement Learning
- 	11. UCB - Upper Confidence Bound
- 	12. Thompson Sampling
+ 	1. UCB - Upper Confidence Bound
+ 	2. Thompson Sampling
 8. Deep Learning
- 	13. Artificial Neural Networks
- 	14. Convolutional Neural Networks
+ 	1. Artificial Neural Networks
+ 	2. Convolutional Neural Networks
 9. Dimensionality Reduction 
- 	15. PCA
- 	16. LDA
+ 	1. PCA
+ 	12. LDA
 10. Model Selection & Boosting
- 	17. k-fold Cross Validation
- 	18. Parameter Tuning
- 	19. Grid Search
- 	20. XGBoost
+ 	1. k-fold Cross Validation
+ 	2. Parameter Tuning
+ 	3. Grid Search
+ 	4. XGBoost
