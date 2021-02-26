@@ -156,6 +156,9 @@ X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size=0.2) # Creati
   - Algorithms like Linear Discriminant Analysis(LDA), Naive Bayes are by design equipped to handle this and gives weights to the features accordingly. 
 - We are going to take Standardization for our feature scaling task.
 - ***[StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)*** is a class of sklearn.preprocessing library, which is going to do the task.
+
+- Notes:
+  - Mean centering does not affect the covariance matrix, other hand Scaling & Standardizing does affect the covariance matrix.
 ```py
 from sklearn.preprocessing import StandardScaler 	# module import: importing the file StandardScaler from sklearn.proprocessing  								# Creating Object of the class to perform our task
 sc_X = StandardScaler()
