@@ -101,6 +101,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size=0.2) # Creati
 ### 4. Feature Scaling
 - The final step of data Pre-processing is to apply the very important feature scaling.
 - Feature scaling is a method used to standardize the range of independent variables or features of data. 
+- Scaling is a monotonic transformation process.
 - Why it is important:
 	- A lot of machine learning models are based on Euclidean distance.
 	- For example, the values in one column (x) is much higher than the value in another column (y), (x2-x1) squared will give a far greater value than (y2-y1) squared.
@@ -143,10 +144,16 @@ X_train, X_test, Y_train, Y_test = train_test_split(X,Y, test_size=0.2) # Creati
   				<img width="178" height="94" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/master/2-Data%20Pre-Processing/Reference/Unit%20Vector.JPG?raw=true">
 			</p>
 - Some examples of algorithms where feature scaling matters are:
-	- ***k-nearest neighbors*** with an Euclidean distance measure is sensitive to magnitudes and hence should be scaled for all features to weigh in equally.
-	- ***Principal Component Analysis (PCA)*** tries to get the features with maximum variance and the variance is high for high magnitude features. This skews the PCA towards high magnitude features.
-	- We can speed up gradient descent by scaling. This is because θ will descend quickly on small ranges and slowly on large ranges, and so will oscillate inefficiently down to the optimum when the variables are very uneven.
-	- Algorithms like Linear Discriminant Analysis(LDA), Naive Bayes are by design equipped to handle this and gives weights to the features accordingly. 
+  - ***k-nearest neighbors*** with an Euclidean distance measure is sensitive to magnitudes and hence should be scaled for all features to weigh in equally.
+  - ***K-Means*** uses the Euclidean distance measure here feature scaling matters.
+  - ***Principal Component Analysis (PCA)*** tries to get the features with maximum variance and the variance is high for high magnitude features. This skews the PCA towards high magnitude features.
+  - We can speed up gradient descent by scaling. This is because θ will descend quickly on small ranges and slowly on large ranges, and so will oscillate inefficiently down to the optimum when the variables are very uneven.
+
+- Algorithms that does not requires scaling:
+  - Algorithms that do not require normalization/scaling are the ones that rely on rules. 
+  - They would not be affected by any monotonic transformations of the variables.
+  - CART, Random Forests, Gradient Boosted Decision Trees. These algorithms utilize rules (series of inequalities) and do not require normalization.
+  - Algorithms like Linear Discriminant Analysis(LDA), Naive Bayes are by design equipped to handle this and gives weights to the features accordingly. 
 - We are going to take Standardization for our feature scaling task.
 - ***[StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html)*** is a class of sklearn.preprocessing library, which is going to do the task.
 ```py
