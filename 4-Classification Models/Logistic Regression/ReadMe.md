@@ -83,18 +83,18 @@
 - **The Natural logarithm of the odds ratio is equivalent to a linear function of the independent variables**. This statement gives below equation.
 
 <p align="center">
-  <img width="473" height="117" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/4-Classification%20Models/Logistic%20Regression/references/Fig-1.JPG?raw=true">
+  <img width="473" height="117" src="references/Fig-1.JPG?raw=true">
 </p> 
 
 
 - Taking anti-log on both the side will allow us to find the estimated regression equation.
 
 <p align="center">
-  <img width="432" height="532" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/4-Classification%20Models/Logistic%20Regression/references/Fig-2.JPG?raw=true">
+  <img width="432" height="532" src="references/Fig-2.JPG?raw=true">
 </p> 
 
 <p align="center">
-  <img width="315" height="165" src="https://github.com/ManikandanJeyabal/Machine-Learning-101/blob/CM_LGR/4-Classification%20Models/Logistic%20Regression/references/Fig-3.JPG?raw=true">
+  <img width="315" height="165" src="references/Fig-3.JPG?raw=true">
 </p> 
 
 - By applying the above equation for each independent variable in your data set you will get the predicted variable 
@@ -110,7 +110,7 @@
 
 ##### See Also
 - [K-NN]()
-- [SVM - Support Vector Machine](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/SVM#support-vector-machine)
+- [SVM - Support Vector Machine](../SVM#support-vector-machine)
 - [Naive Bayes]()
-- [D-Tress](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/Decision%20Trees#decision-tree-classification)
-- [Random Forest](https://github.com/ManikandanJeyabal/Machine-Learning-101/tree/master/4-Classification%20Models/Random%20Forest#random-forest-classification)
+- [D-Tress](../Decision%20Trees#decision-tree-classification)
+- [Random Forest](../Random%20Forest#random-forest-classification)
